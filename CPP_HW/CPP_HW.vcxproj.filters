@@ -84,5 +84,17 @@
     <ClCompile Include="241015hw.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="241008hw3re.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="241010hw1re.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="241015hwre.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="241016hw.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
