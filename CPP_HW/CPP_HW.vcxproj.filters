@@ -96,5 +96,11 @@
     <ClCompile Include="241016hw.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="241016hwre.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="241017hw1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
