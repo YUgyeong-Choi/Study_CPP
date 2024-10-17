@@ -133,8 +133,9 @@ void Select_Start(INFO** pPlayer)
 
 INFO* Get_Data()
 {
-	INFO temp;
+	INFO* temp = new INFO;
 	INFO* pTemp;
+	pTemp = temp;
 	int count(0);
 	char szInput[32]="";
 	char oneChar;
@@ -146,17 +147,17 @@ INFO* Get_Data()
 				switch (count)
 				{
 				case 0:
-					strcpy_s(temp.szName, sizeof(temp.szName), szInput);
+					strcpy_s(pTemp->szName, sizeof(pTemp->szName), szInput);
 					strcpy_s(szInput, sizeof(szInput), "");
 					count++;
 					break;
 				case 1:
-					temp.iHp = stoi(szInput);
+					pTemp->iHp = stoi(szInput);
 					strcpy_s(szInput, sizeof(szInput), "");
 					count++;
 					break;
 				case 2:
-					temp.iAttack = stoi(szInput);
+					pTemp->iAttack = stoi(szInput);
 					strcpy_s(szInput, sizeof(szInput), "");
 					count++;
 					break;
@@ -172,7 +173,6 @@ INFO* Get_Data()
 			}
 		}
 		fclose(pFile);
-		Create_Obj(&pTemp, temp.szName, temp.iHp, temp.iAttack);
 		return pTemp;
 	}
 	else {
