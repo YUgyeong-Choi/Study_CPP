@@ -1,6 +1,5 @@
-#include <iostream>
+#include "pch.h"
 #include <string>
-using namespace std;
 
 //성적 출력 with class 동적 배열
 class Student {

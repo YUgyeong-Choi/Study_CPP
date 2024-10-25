@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241024hw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\241024hw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "241024hw.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241024hw.cpp",
+              "RelativeDocumentMoniker": "CPP_HW2\\241024hw.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241024hw.cpp",
+              "RelativeToolTip": "CPP_HW2\\241024hw.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-25T04:55:09.333Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
