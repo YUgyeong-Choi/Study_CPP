@@ -52,13 +52,12 @@ public:
 
 };
 
-void Add_Students(Student* tStudents, int* iCount);
-void Render_Students(Student* tStudents, int* iCount);
-void Search_Student(Student* tStudents, int* iCount);
+void Add_Students(Student* tStudents, int& iCount);
+void Render_Students(Student* tStudents, int iCount);
+void Search_Student(Student* tStudents, int iCount);
 
 int main() {
 	Student* tStudents = new Student[100];
-	void(*pProg[3])(Student*, int*) = { Add_Students ,Render_Students ,Search_Student };
 	int iInput(0);
 	int iCount(0);
 
@@ -73,10 +72,19 @@ int main() {
 
 		if (4 == iInput) {
 			cout << "프로그램을 종료합니다" << endl;
-			return 0;
+			break;
 		}
-		else {
-			pProg[iInput - 1](tStudents, &iCount);
+
+		switch (iInput) {
+		case 1:
+			Add_Students(tStudents, iCount);
+			break;
+		case 2:
+			Render_Students(tStudents, iCount);
+			break;
+		case 3:
+			Search_Student(tStudents, iCount);
+			break;
 		}
 	}
 
@@ -86,7 +94,7 @@ int main() {
 	return 0;
 }
 
-void Add_Students(Student* tStudents,int* iCount)
+void Add_Students(Student* tStudents,int& iCount)
 {
 	int iInput(0);
 	char szName[32] = {};
@@ -96,7 +104,7 @@ void Add_Students(Student* tStudents,int* iCount)
 		cout << "몇 명을 입력받겠습니까?" << endl;
 		cin >> iInput;
 		if (0<iInput) {
-			*iCount += iInput;
+			iCount += iInput;
 			break;
 		}
 	}
@@ -104,45 +112,51 @@ void Add_Students(Student* tStudents,int* iCount)
 	for (int i = iInput; i > 0; --i) {
 		cout << "이름 입력 : ";
 		cin >> szName;
-		tStudents[*iCount-i].Set_Name(szName);
+		tStudents[iCount-i].Set_Name(szName);
 
 		cout << "국어 입력 : ";
 		cin >> iScore;
-		tStudents[*iCount-i].Set_Kor(iScore);
+		tStudents[iCount-i].Set_Kor(iScore);
 
 		cout << "영어 입력 : ";
 		cin >> iScore;
-		tStudents[*iCount-i].Set_Eng(iScore);
+		tStudents[iCount-i].Set_Eng(iScore);
 
 		cout << "수학 입력 : ";
 		cin >> iScore;
-		tStudents[*iCount-i].Set_Math(iScore);
+		tStudents[iCount-i].Set_Math(iScore);
 
-		tStudents[*iCount-i].Set_Total();
-		tStudents[*iCount-i].Set_Aver();
+		tStudents[iCount-i].Set_Total();
+		tStudents[iCount-i].Set_Aver();
 		cout << "==============================" << endl;
 	}
 	
 }
 
-void Render_Students(Student* tStudents, int* iCount)
+void Render_Students(Student* tStudents, int iCount)
 {
-	for (int i = 0; i < *iCount; ++i) {
+	if (iCount == 0) {
+		cout << "등록된 학생이 없습니다." << endl;
+		return;
+	}
+
+	for (int i = 0; i < iCount; ++i) {
 		cout << "이름\t국어\t영어\t수학\t총점\t평균" << endl;
 		cout << tStudents[i].Get_Name() << '\t' << tStudents[i].Get_Kor() << '\t' << tStudents[i].Get_Eng() << '\t' << tStudents[i].Get_Math() << '\t' << tStudents[i].Get_Total() << '\t' << tStudents[i].Get_Aver() << endl;
 	}
 }
 
-void Search_Student(Student* tStudents, int* iCount)
+void Search_Student(Student* tStudents, int iCount)
 {
 	char cInputName[100];
 	cout << "원하는 학생의 이름을 작성하세요: ";
 	cin >> cInputName;
-	for (int i = 0; i < *iCount; ++i) {
+	for (int i = 0; i < iCount; ++i) {
 		if (!(strcmp(tStudents[i].Get_Name(), cInputName))) {
 			cout << "이름\t국어\t영어\t수학\t총점\t평균" << endl;
 			cout << tStudents[i].Get_Name() << '\t' << tStudents[i].Get_Kor() << '\t' << tStudents[i].Get_Eng() << '\t' << tStudents[i].Get_Math() << '\t' << tStudents[i].Get_Total() << '\t' << tStudents[i].Get_Aver() << endl;
-			break;
+			return;
 		}
 	}
+	cout << "학생을 찾을 수 없습니다." << endl;
 }
