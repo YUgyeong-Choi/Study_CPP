@@ -3,11 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241024hw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\241024hw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\1ce269f9-b990-4f2d-9bda-7e446b98ed8b_1\uC77C\uCC28-OOP \uD504\uB85C\uADF8\uB798\uBC0D.zip.d8b\\241024\\241024.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\ScoreBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\ScoreBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,27 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "241024.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\1ce269f9-b990-4f2d-9bda-7e446b98ed8b_1\uC77C\uCC28-OOP \uD504\uB85C\uADF8\uB798\uBC0D.zip.d8b\\241024\\241024.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\user\\AppData\\Local\\Temp\\1ce269f9-b990-4f2d-9bda-7e446b98ed8b_1\uC77C\uCC28-OOP \uD504\uB85C\uADF8\uB798\uBC0D.zip.d8b\\241024\\241024.cpp",
-              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\1ce269f9-b990-4f2d-9bda-7e446b98ed8b_1\uC77C\uCC28-OOP \uD504\uB85C\uADF8\uB798\uBC0D.zip.d8b\\241024\\241024.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\user\\AppData\\Local\\Temp\\1ce269f9-b990-4f2d-9bda-7e446b98ed8b_1\uC77C\uCC28-OOP \uD504\uB85C\uADF8\uB798\uBC0D.zip.d8b\\241024\\241024.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAGkAAAAVAAAA",
+              "DocumentIndex": 4,
+              "Title": "ScoreBoard.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\ScoreBoard.cpp",
+              "RelativeDocumentMoniker": "CPP_HW2\\ScoreBoard.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\ScoreBoard.cpp",
+              "RelativeToolTip": "CPP_HW2\\ScoreBoard.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T00:18:17.55Z"
+              "WhenOpened": "2024-10-25T10:32:17.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\Student.h",
+              "RelativeDocumentMoniker": "CPP_HW2\\Student.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\Student.h",
+              "RelativeToolTip": "CPP_HW2\\Student.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-25T07:48:27.377Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "241024hw.cpp",
-              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241024hw.cpp",
-              "RelativeDocumentMoniker": "CPP_HW2\\241024hw.cpp",
-              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241024hw.cpp",
-              "RelativeToolTip": "CPP_HW2\\241024hw.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAIsAAAAJAAAAAAAAAA==",
+              "Title": "Student.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\Student.cpp",
+              "RelativeDocumentMoniker": "CPP_HW2\\Student.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\Student.cpp*",
+              "RelativeToolTip": "CPP_HW2\\Student.cpp*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T04:55:09.333Z",
+              "WhenOpened": "2024-10-25T07:48:21.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainGame.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MainGame.h",
+              "RelativeDocumentMoniker": "CPP_HW2\\MainGame.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MainGame.h",
+              "RelativeToolTip": "CPP_HW2\\MainGame.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-25T07:48:07.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainGame.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MainGame.cpp",
+              "RelativeDocumentMoniker": "CPP_HW2\\MainGame.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MainGame.cpp*",
+              "RelativeToolTip": "CPP_HW2\\MainGame.cpp*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-25T07:47:59.533Z",
               "EditorCaption": ""
             }
           ]
