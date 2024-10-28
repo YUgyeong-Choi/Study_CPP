@@ -1,6 +1,6 @@
 #pragma once
 #include "Player.h"
-#include "Monster.h"
+#include "Field.h"
 
 class MainGame {
 public:
@@ -10,8 +10,7 @@ public:
 	void Initialize();
 	void Update();
 	void Release();
-	void Field();
-	void Fight(Player* player, Monster* monster);
 private:
-	Player* player;
+	Player* m_pPlayer;
+	Field* m_pField;
 };

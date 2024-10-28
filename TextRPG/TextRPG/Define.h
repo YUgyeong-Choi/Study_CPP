@@ -8,5 +8,3 @@ typedef struct tagInfo {
 	int m_iHp;
 	int m_iAttack;
 }INFO;
-
-enum JOB { WARRIOR = 1, MAGE, THIEF, END };

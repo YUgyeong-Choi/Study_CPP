@@ -22,6 +22,9 @@
     <Filter Include="Monster">
       <UniqueIdentifier>{8da0af8b-bedc-48d8-885b-afbef2580b82}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Field">
+      <UniqueIdentifier>{e3036efa-5efa-48b6-b543-307b65300d91}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define.h">
@@ -39,6 +42,9 @@
     <ClInclude Include="Monster.h">
       <Filter>Monster</Filter>
     </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Field</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainGame.cpp">
@@ -52,6 +58,9 @@
     </ClCompile>
     <ClCompile Include="Monster.cpp">
       <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Field</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

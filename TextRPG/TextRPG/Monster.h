@@ -3,15 +3,14 @@
 
 class Monster {
 public:
-	Monster();
+	Monster(const char* pName, int _iHp, int _iAttack);
 	~Monster();
 public:
 	void Initialize();
 	void Release();
 	void Render();
-	void Create_Obj(const char* pName, int _iAttack, int _iHp);
-	INFO Get_Info();
-	void Get_Attack(int _iHp);
+	INFO Get_Info() { return info; }
+	void Set_Damage(int _iAttack) { info.m_iHp -= _iAttack; }
 private:
-	INFO* info;
+	INFO info;
 };
