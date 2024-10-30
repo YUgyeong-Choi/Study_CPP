@@ -106,7 +106,7 @@ bool Player::Select_Job()
     return true;
 }
 
-void Player::Render()
+void Player::Render() const
 {
     cout << "================================" << endl;
     cout << "ÀÌ¸§ : " << info.m_SzName << endl;

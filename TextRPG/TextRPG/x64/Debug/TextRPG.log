@@ -1,2 +1,7 @@
-﻿  Player.cpp
+﻿  Field.cpp
+  MainGame.cpp
+  Monster.cpp
+  Player.cpp
+  TextRPG.cpp
+  코드를 생성하고 있습니다...
   TextRPG.vcxproj -> C:\Users\yugyeong\Desktop\Study_CPP\TextRPG\x64\Debug\TextRPG.exe

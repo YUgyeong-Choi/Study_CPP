@@ -13,8 +13,8 @@ public:
 	bool Save_Data();
 	void Create_Obj(const char* pName, int _iHp, int _iAttack);
 	bool Select_Job();
-	void Render();
-	INFO Get_Info() { return info; }
+	void Render() const;
+	INFO Get_Info() const { return info; }
 	void Set_Damage(int _iAttack) { info.m_iHp -= _iAttack; }
 	void Set_Hp(int _iHp) { info.m_iHp = _iHp; }
 private:

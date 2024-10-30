@@ -9,7 +9,7 @@ public:
 	void Initialize();
 	void Release();
 	void Render();
-	INFO Get_Info() { return info; }
+	INFO Get_Info() const { return info; }
 	void Set_Damage(int _iAttack) { info.m_iHp -= _iAttack; }
 private:
 	INFO info;

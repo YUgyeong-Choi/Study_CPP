@@ -15,24 +15,24 @@
       "RelativeMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|solutionrelative:TextRPG\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|solutionrelative:TextRPG\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|solutionrelative:TextRPG\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|solutionrelative:TextRPG\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|solutionrelative:TextRPG\\Field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|solutionrelative:TextRPG\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Field.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|solutionrelative:TextRPG\\Field.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|solutionrelative:TextRPG\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C3819D2-9D3E-4FA3-AA54-F581EE2B6251}|TextRPG\\TextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -74,12 +74,11 @@
               "RelativeToolTip": "TextRPG\\Define.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-28T11:22:43.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T11:22:43.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Field.h",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Field.h",
               "RelativeDocumentMoniker": "TextRPG\\Field.h",
@@ -87,25 +86,23 @@
               "RelativeToolTip": "TextRPG\\Field.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-28T11:10:05.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T11:10:05.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Field.cpp",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Field.cpp",
               "RelativeDocumentMoniker": "TextRPG\\Field.cpp",
               "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Field.cpp",
               "RelativeToolTip": "TextRPG\\Field.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-28T11:09:59.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T11:09:59.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "MainGame.h",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\MainGame.h",
               "RelativeDocumentMoniker": "TextRPG\\MainGame.h",
@@ -113,12 +110,11 @@
               "RelativeToolTip": "TextRPG\\MainGame.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-27T10:49:04.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T10:49:04.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainGame.cpp",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\MainGame.cpp",
               "RelativeDocumentMoniker": "TextRPG\\MainGame.cpp",
@@ -126,21 +122,19 @@
               "RelativeToolTip": "TextRPG\\MainGame.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-27T10:48:56.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T10:48:56.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Monster.h",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Monster.h",
               "RelativeDocumentMoniker": "TextRPG\\Monster.h",
               "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Monster.h",
               "RelativeToolTip": "TextRPG\\Monster.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-27T12:07:03.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T12:07:03.472Z"
             },
             {
               "$type": "Document",
@@ -150,10 +144,9 @@
               "RelativeDocumentMoniker": "TextRPG\\Monster.cpp",
               "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Monster.cpp",
               "RelativeToolTip": "TextRPG\\Monster.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-27T12:06:56.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T12:06:56.757Z"
             },
             {
               "$type": "Document",
@@ -163,7 +156,7 @@
               "RelativeDocumentMoniker": "TextRPG\\Player.h",
               "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Player.h",
               "RelativeToolTip": "TextRPG\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-27T11:03:10.264Z",
               "EditorCaption": ""
@@ -176,7 +169,7 @@
               "RelativeDocumentMoniker": "TextRPG\\Player.cpp",
               "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\TextRPG\\TextRPG\\Player.cpp",
               "RelativeToolTip": "TextRPG\\Player.cpp",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAIwFkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-27T11:03:04.076Z",
               "EditorCaption": ""
@@ -191,8 +184,7 @@
               "RelativeToolTip": "TextRPG\\TextRPG.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-27T11:07:14.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T11:07:14.444Z"
             },
             {
               "$type": "Document",
