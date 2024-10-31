@@ -131,6 +131,7 @@
     <ClInclude Include="Field.h" />
     <ClInclude Include="MainGame.h" />
     <ClInclude Include="Monster.h" />
+    <ClInclude Include="Obj.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
@@ -138,6 +139,7 @@
     <ClCompile Include="Field.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Obj.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="TextRPG.cpp" />
   </ItemGroup>

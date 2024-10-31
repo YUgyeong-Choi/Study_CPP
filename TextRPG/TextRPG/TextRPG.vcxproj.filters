@@ -25,6 +25,9 @@
     <Filter Include="Field">
       <UniqueIdentifier>{e3036efa-5efa-48b6-b543-307b65300d91}</UniqueIdentifier>
     </Filter>
+    <Filter Include="OBj">
+      <UniqueIdentifier>{c8a3d5ae-be38-4f82-ae32-c901c7a18c06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define.h">
@@ -45,6 +48,9 @@
     <ClInclude Include="Field.h">
       <Filter>Field</Filter>
     </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>OBj</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainGame.cpp">
@@ -61,6 +67,9 @@
     </ClCompile>
     <ClCompile Include="Field.cpp">
       <Filter>Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>OBj</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -6,12 +6,16 @@ Player::Player()
 {
 }
 
-Player::~Player()
+Player::Player(const char* pName, int _iHp, int _iAttack)
 {
-    Release();
+    strcpy_s(m_info.m_SzName, sizeof(m_info.m_SzName), pName);
+    m_info.m_iAttack = _iAttack;
+    m_info.m_iHp = _iHp;
 }
 
-void Player::Release(){}
+Player::~Player()
+{
+}
 
 bool Player::Load_Data()
 {
@@ -21,7 +25,7 @@ bool Player::Load_Data()
 
     if (0 == err)
     {
-        fread(&info, sizeof(INFO), 1, pLoadFile);
+        fread(&m_info, sizeof(INFO), 1, pLoadFile);
 
         cout << "불러오기 성공" << endl;
 
@@ -44,7 +48,7 @@ bool Player::Save_Data()
 
     if (0 == err)
     {
-        fwrite(&info, sizeof(INFO), 1, pSaveFile);
+        fwrite(&m_info, sizeof(INFO), 1, pSaveFile);
         
         cout << "저장 성공" << endl;
 
@@ -60,9 +64,9 @@ bool Player::Save_Data()
 
 void Player::Create_Obj(const char* pName, int _iHp, int _iAttack)
 {
-    strcpy_s(info.m_SzName, sizeof(info.m_SzName), pName);
-    info.m_iHp = _iHp;
-    info.m_iAttack = _iAttack;
+    strcpy_s(m_info.m_SzName, sizeof(m_info.m_SzName), pName);
+    m_info.m_iHp = _iHp;
+    m_info.m_iAttack = _iAttack;
 }
 
 
@@ -104,11 +108,4 @@ bool Player::Select_Job()
     }
 
     return true;
-}
-
-void Player::Render() const
-{
-    cout << "================================" << endl;
-    cout << "이름 : " << info.m_SzName << endl;
-    cout << "체력 : " << info.m_iHp << "\t공격력 : " << info.m_iAttack << endl;
 }

@@ -1,22 +1,18 @@
 #pragma once
 #include "Define.h"
+#include "Obj.h"
 
-class Player {
+class Player:public Obj{
 public:
 	enum JOB{WARRIOR=1, MAGE, THIEF, END};
 public:
 	Player();
+	Player(const char* pName, int _iHp, int _iAttack);
 	~Player();
 public:
-	void Release();
 	bool Load_Data();
 	bool Save_Data();
 	void Create_Obj(const char* pName, int _iHp, int _iAttack);
 	bool Select_Job();
-	void Render() const;
-	INFO Get_Info() const { return info; }
-	void Set_Damage(int _iAttack) { info.m_iHp -= _iAttack; }
-	void Set_Hp(int _iHp) { info.m_iHp = _iHp; }
-private:
-	INFO info;
+	void Set_Hp(int _iHp) { m_info.m_iHp = _iHp; }
 };
