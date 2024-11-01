@@ -13,5 +13,90 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{8e6717db-a36c-4254-b815-cf1b0edafb43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{c1acc9db-f55d-458a-8eff-125ff2429ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{cbc2f3d3-7325-48b8-9037-7fe5e66b2edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{4c8b00a8-a08e-44ed-b6fd-6b6e393bbe01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mainmenu">
+      <UniqueIdentifier>{09dbbee0-9afc-40d1-8f07-233f18fc31cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Warrior">
+      <UniqueIdentifier>{1af41247-ad22-4503-bf7c-90ca13a3ec86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mage">
+      <UniqueIdentifier>{c467f08f-a4d0-49c0-857b-ab1dd0506065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fighter">
+      <UniqueIdentifier>{c002f206-c015-4774-8dc7-eb185f3e0e99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Mainmenu.h">
+      <Filter>Mainmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Fighter</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>Warrior</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="Mainmenu.cpp">
+      <Filter>Mainmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRpg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Fighter</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>Warrior</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
