@@ -58,7 +58,7 @@ void Field::Release()
 {
 }
 
-void Field::Set_Player(Player* _pPlayer)
+void Field::Set_Player(Obj* _pPlayer)
 {
     m_pPlayer = _pPlayer;
 }

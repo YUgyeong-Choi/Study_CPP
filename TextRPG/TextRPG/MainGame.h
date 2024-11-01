@@ -1,5 +1,6 @@
 #pragma once
 #include "Player.h"
+#include "Obj.h"
 #include "Field.h"
 
 class MainGame {
@@ -11,6 +12,6 @@ public:
 	void Update();
 	void Release();
 private:
-	Player* m_pPlayer;
+	Obj* m_pPlayer;
 	Field* m_pField;
 };
