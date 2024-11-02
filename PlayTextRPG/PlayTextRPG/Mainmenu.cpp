@@ -14,7 +14,7 @@ Mainmenu::~Mainmenu()
 
 void Mainmenu::Release()
 {
-	SAFE_DELETE(m_pField);
+	if(m_pField) SAFE_DELETE(m_pField);
 }
 
 void Mainmenu::Update()
@@ -32,12 +32,19 @@ void Mainmenu::Update()
 		switch (_iInput)
 		{
 		case 1:
+			m_pField = new Field;
+			m_pField->Set_PlayerInfo(m_pPlayer);
+			m_pField->Update();
 			break;
 		case 2:
 			break;
 		case 3:
 			break;
 		case 4:
+			cin.ignore(numeric_limits<streamsize>::max(), '\n'); //gpt도움
+			m_pPlayer->Render_Detail();
+			cout << "아무 버튼 누르면 뒤로 갑니다" << endl;
+			cin.get();
 			break;
 		case 5:
 			return;

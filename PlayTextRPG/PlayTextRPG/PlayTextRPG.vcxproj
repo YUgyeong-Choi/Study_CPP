@@ -132,6 +132,7 @@
     <ClInclude Include="Field.h" />
     <ClInclude Include="Fighter.h" />
     <ClInclude Include="Login.h" />
+    <ClInclude Include="LowDungeon.h" />
     <ClInclude Include="Mage.h" />
     <ClInclude Include="MainGame.h" />
     <ClInclude Include="Mainmenu.h" />
@@ -145,6 +146,7 @@
     <ClCompile Include="Field.cpp" />
     <ClCompile Include="Fighter.cpp" />
     <ClCompile Include="Login.cpp" />
+    <ClCompile Include="LowDungeon.cpp" />
     <ClCompile Include="Mage.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="Mainmenu.cpp" />
