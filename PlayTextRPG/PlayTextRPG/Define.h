@@ -3,8 +3,8 @@
 #define SAFE_DELETE_ARRAY(p) if(p) { delete [] p; p = nullptr;}
 
 typedef struct tagInfo {
-	char szName[32];
-	char Job[32];
-	int iHp, iAttack, iMoney;
+	char szName[32]="";
+	char Job[32]="";
+	int iHp=0, iAttack=0, iMoney=0, Stage=0;
 }PlayerInfo;
 

@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Define.h" />
+    <ClInclude Include="Dungeon.h" />
+    <ClInclude Include="Field.h" />
     <ClInclude Include="Fighter.h" />
     <ClInclude Include="Login.h" />
     <ClInclude Include="Mage.h" />
@@ -139,6 +141,8 @@
     <ClInclude Include="Warrior.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Dungeon.cpp" />
+    <ClCompile Include="Field.cpp" />
     <ClCompile Include="Fighter.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="Mage.cpp" />
@@ -146,7 +150,12 @@
     <ClCompile Include="Mainmenu.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="TextRpg.cpp" />
+    <ClCompile Include="test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TextRpg.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Warrior.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
