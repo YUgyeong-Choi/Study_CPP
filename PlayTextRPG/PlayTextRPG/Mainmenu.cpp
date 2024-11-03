@@ -1,5 +1,8 @@
 #include "Mainmenu.h"
 #include "pch.h"
+#include "Define.h"
+#include <limits>
+#include "Color.h"
 
 Mainmenu::Mainmenu()
 {
@@ -21,14 +24,17 @@ void Mainmenu::Update()
 {
 	int _iInput(0);
 	while (1) {
-		cout << "============= Main Menu ============" << endl;
+		system("cls");
+		setColor(YELLOW);
+		cout << "============= Main Menu ============" << endl; setColor(GRAY);
 		cout << "1. 사냥터" << endl;
 		cout << "2. 인벤토리" << endl;
 		cout << "3. 상점" << endl;
 		cout << "4. 스탯 정보 출력" << endl;
-		cout << "5. 뒤로 가기" << endl;
-		cout << "====================================" << endl;
+		cout << "5. 뒤로 가기" << endl; setColor(YELLOW);
+		cout << "====================================" << endl; setColor(GRAY);
 		cin >> _iInput;
+		cin.ignore();
 		switch (_iInput)
 		{
 		case 1:
@@ -41,7 +47,6 @@ void Mainmenu::Update()
 		case 3:
 			break;
 		case 4:
-			cin.ignore(numeric_limits<streamsize>::max(), '\n'); //gpt도움
 			m_pPlayer->Render_Detail();
 			cout << "아무 버튼 누르면 뒤로 갑니다" << endl;
 			cin.get();

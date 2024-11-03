@@ -1,5 +1,6 @@
 #include "Player.h"
 #include "pch.h"
+#include "Color.h"
 
 Player::Player()
 {
@@ -25,8 +26,9 @@ Player::~Player()
 
 void Player::Render()
 {
-    cout << "====================================" << endl;
-    cout << "이름: " << m_playerInfo.szName << endl;
+    setColor(RED);
+    cout << "====================================" << endl; setColor(GRAY);
+    cout << m_playerInfo.szName << endl;
     cout << "Hp: " << m_playerInfo.iHp << endl;
     cout << "Attack Damage: " << m_playerInfo.iAttack << endl;
 }
@@ -51,7 +53,9 @@ int Player::Skill2()
 
 void Player::Render_Detail()
 {
-    cout << "============== 내 정보==============" << endl;
+    system("cls");
+    setColor(YELLOW);
+    cout << "============== 내 정보==============" << endl; setColor(GRAY);
     cout << "이름:" << m_playerInfo.szName << '\t' << "직업:" << m_playerInfo.Job << endl;
     cout << "Hp: " << m_playerInfo.iHp << endl;
     cout << "Attack Damage: " << m_playerInfo.iAttack << endl;
@@ -59,6 +63,6 @@ void Player::Render_Detail()
     cout << "스킬 1-" << m_playerInfo.skills[0].skillName<<" : "<< m_playerInfo.skills[0].skillInfo << endl;
     cout << "스킬 1 쿨타임: " << m_playerInfo.skills[0].cool<<endl;
     cout << "스킬 2-" << m_playerInfo.skills[1].skillName<<" : "<< m_playerInfo.skills[1].skillInfo << endl;
-    cout << "스킬 2 쿨타임: " << m_playerInfo.skills[1].cool<<endl;
-    cout << "====================================" << endl;
+    cout << "스킬 2 쿨타임: " << m_playerInfo.skills[1].cool<<endl; setColor(YELLOW);
+    cout << "====================================" << endl; setColor(GRAY);
 }

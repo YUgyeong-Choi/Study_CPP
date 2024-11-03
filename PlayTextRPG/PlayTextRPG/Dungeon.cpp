@@ -1,6 +1,7 @@
 #include "Dungeon.h"
 #include "pch.h"
 #include <ctime>
+#include "Color.h"
 
 Dungeon::Dungeon() {
     m_pPlayer = nullptr;
@@ -40,6 +41,7 @@ void Dungeon::Update() {
     bool checkWin = true;
 
     while (true) {
+        system("cls");
         Render_Map();
         cout << "1.위 2.아래 3.좌 4.우 5.던전 퇴장: " << endl;
         cin >> _iInput;
@@ -56,25 +58,33 @@ void Dungeon::Update() {
         case 1:
             if (iX > 0) {
                 iX--;
+                setColor(GREEN);
                 map[iX][iY][0] = '?';
+                setColor(GRAY);
             }
             break;
         case 2:
             if (iX < 4) {
                 iX++;
+                setColor(GREEN);
                 map[iX][iY][0] = '?';
+                setColor(GRAY);
             }
             break;
         case 3:
             if (iY > 0) {
                 iY--;
+                setColor(GREEN);
                 map[iX][iY][0] = '?';
+                setColor(GRAY);
             }
             break;
         case 4:
             if (iY < 4) {
                 iY++;
+                setColor(GREEN);
                 map[iX][iY][0] = '?';
+                setColor(GRAY);
             }
             break;
         case 5:
@@ -125,14 +135,16 @@ Monster* Dungeon::Set_Monster()
 
 
 void Dungeon::Render_Map() {
-    cout << "============= 던전 =============" << endl;
+    setColor(BLUE);
+    cout << "============= 던전 =============" << endl; setColor(GRAY);
     for (int i = 0; i < 5; ++i) {
         for (int j = 0; j < 5; ++j) {
             cout << map[i][j][0] << " ";
         }
         cout << endl;
     }
-    cout << "=================================" << endl;
+    setColor(BLUE);
+    cout << "=================================" << endl; setColor(GRAY);
 }
 
 bool Dungeon::Check_Clear() {
@@ -146,7 +158,7 @@ bool Dungeon::Check_Clear() {
     return true;
 }
 
-// 전투 메서드
+
 bool Dungeon::Fight(Player* _pPlayer, Monster* _pMonster) {
     int _iInput(0);
     int _iCoolTime(0);
@@ -154,9 +166,11 @@ bool Dungeon::Fight(Player* _pPlayer, Monster* _pMonster) {
     _pMonster = Set_Monster();
 
     while (1) {
+        system("cls");
         _pMonster->Render();
-        _pPlayer->Render();
-        cout << "====================================" << endl;
+        _pPlayer->Render(); 
+        setColor(RED);
+        cout << "====================================" << endl; setColor(GRAY);
         cout << "1.기본 공격" << " 2." << _pPlayer->Get_Info().skills[0].skillName << " 3." << _pPlayer->Get_Info().skills[1].skillName << endl;
         cout << "4.도망" << endl;
         cin >> _iInput;

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Color.h" />
     <ClInclude Include="Define.h" />
     <ClInclude Include="Dungeon.h" />
     <ClInclude Include="Field.h" />
@@ -144,6 +145,7 @@
     <ClInclude Include="Warrior.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Color.cpp" />
     <ClCompile Include="Dungeon.cpp" />
     <ClCompile Include="Field.cpp" />
     <ClCompile Include="Fighter.cpp" />

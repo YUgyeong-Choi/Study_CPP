@@ -1,5 +1,6 @@
 #include "Field.h"
 #include "pch.h"
+#include "Color.h"
 
 Field::Field()
 {
@@ -16,12 +17,14 @@ void Field::Update() {
     int _iInput(0);
 
     while (true) {
-        cout << "============= 던전 선택 ============" << endl;
+        system("cls");
+        setColor(YELLOW);
+        cout << "============= 던전 선택 ============" << endl; setColor(GRAY);
         cout << "1. 하급 던전 입장" << endl;
         cout << "2. 중급 던전 입장" << endl;
         cout << "3. 고급 던전 입장" << endl;
-
-        cout << "============= 보스 선택 ============" << endl;
+        setColor(YELLOW);
+        cout << "============= 보스 선택 ============" << endl; setColor(GRAY);
 
         struct DungeonOption {
             int stageRequirement;
@@ -43,8 +46,8 @@ void Field::Update() {
                 cout << (i + 4) << ". " << bossOptions[i].entryText << " (" << bossOptions[i].clearText << ")" << endl;
             }
         }
-
-        cout << "====================================" << endl;
+        setColor(YELLOW);
+        cout << "====================================" << endl; setColor(GRAY);
         cout << "7. 종료" << endl;
 
         cin >> _iInput;
@@ -52,15 +55,18 @@ void Field::Update() {
         if (_iInput >= 1 && _iInput <= 3) {
             switch (_iInput) {
             case 1:
-                cout << "어두운 숲의 동굴로 입장합니다 (Level.1)" << endl;
+                setColor(BLUE);
+                cout << "어두운 숲의 동굴로 입장합니다 (Level.1)" << endl; setColor(GRAY);
                 m_pDungeon = new LowDungeon; 
                 break;
             case 2:
-                cout << "버려진 성로 입장합니다 (Level.2)" << endl;
+                setColor(BLUE);
+                cout << "버려진 성로 입장합니다 (Level.2)" << endl; setColor(GRAY);
                 m_pDungeon = new MiddleDungeon;
                 break;
             case 3:
-                cout << "화산의 심장으로 입장합니다 (Level.3)" << endl;
+                setColor(BLUE);
+                cout << "화산의 심장으로 입장합니다 (Level.3)" << endl; setColor(GRAY);
                 m_pDungeon = new HighDungeon; 
                 break;
             }

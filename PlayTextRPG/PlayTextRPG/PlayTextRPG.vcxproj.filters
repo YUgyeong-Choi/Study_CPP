@@ -99,6 +99,9 @@
     <ClInclude Include="HighDungeon.h">
       <Filter>HighDungeon</Filter>
     </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp">
@@ -145,6 +148,9 @@
     </ClCompile>
     <ClCompile Include="HighDungeon.cpp">
       <Filter>HighDungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

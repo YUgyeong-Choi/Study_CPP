@@ -1,6 +1,6 @@
 #include "MainGame.h"
 #include "pch.h"
-#include "Define.h"
+#include "Color.h"
 
 MainGame::MainGame()
 {
@@ -20,6 +20,7 @@ void MainGame::Initialize()
 void MainGame::Update()
 {
 	cout << "시작 화면" << endl;
+	setColor(YELLOW);
 	cout << "아무 버튼이나 눌러주세요" << endl;
 	cin.get();
 	
