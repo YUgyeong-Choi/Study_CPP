@@ -6,6 +6,7 @@
 typedef struct {
     char skillName[32];
     char skillInfo[128];
+    int cool;
 } SkillInfo;
 
 

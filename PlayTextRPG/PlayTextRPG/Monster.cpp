@@ -1,11 +1,10 @@
 #include "Monster.h"
 #include "pch.h"
 
-Monster::Monster()
-{
-    strcpy_s(m_monsterInfo.szName, "ΩΩ∂Û¿”"); 
-    m_monsterInfo.iHp = 50;           
-    m_monsterInfo.iAttack = 5;       
+Monster::Monster(const char* name, int hp, int attack) {
+    strcpy_s(m_monsterInfo.szName,sizeof(m_monsterInfo.szName), name);
+    m_monsterInfo.iHp = hp;
+    m_monsterInfo.iAttack = attack;
 }
 
 void Monster::Render()

@@ -131,11 +131,13 @@
     <ClInclude Include="Dungeon.h" />
     <ClInclude Include="Field.h" />
     <ClInclude Include="Fighter.h" />
+    <ClInclude Include="HighDungeon.h" />
     <ClInclude Include="Login.h" />
     <ClInclude Include="LowDungeon.h" />
     <ClInclude Include="Mage.h" />
     <ClInclude Include="MainGame.h" />
     <ClInclude Include="Mainmenu.h" />
+    <ClInclude Include="MiddleDungeon.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Player.h" />
@@ -145,11 +147,13 @@
     <ClCompile Include="Dungeon.cpp" />
     <ClCompile Include="Field.cpp" />
     <ClCompile Include="Fighter.cpp" />
+    <ClCompile Include="HighDungeon.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="LowDungeon.cpp" />
     <ClCompile Include="Mage.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="Mainmenu.cpp" />
+    <ClCompile Include="MiddleDungeon.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="test.cpp">

@@ -7,5 +7,5 @@ public:
 	~Fighter();
 public:
 	void Skill1();
-	void Skill2();
+	int Skill2();
 };

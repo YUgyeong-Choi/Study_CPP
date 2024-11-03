@@ -1,6 +1,9 @@
 #pragma once
 #include "Player.h"
 #include "LowDungeon.h"
+#include "MiddleDungeon.h"
+#include "HighDungeon.h"
+
 
 class Field {
 public:
@@ -14,5 +17,5 @@ public:
 	void Set_PlayerInfo(Player* _pPlayer);
 private:
 	Player* m_pPlayer;
-	LowDungeon* m_pLowDungeon;
+	Dungeon* m_pDungeon;
 };

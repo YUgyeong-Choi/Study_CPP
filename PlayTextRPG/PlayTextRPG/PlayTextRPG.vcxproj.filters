@@ -46,6 +46,12 @@
     <Filter Include="5_LowDungeon">
       <UniqueIdentifier>{471efe68-e5a8-473d-bdc3-e72fb1a386d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="5_MiddleDungeon">
+      <UniqueIdentifier>{f6b624b6-1789-4408-b009-7f68b9ffed31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighDungeon">
+      <UniqueIdentifier>{70e9c3ec-6b9c-41a7-8f22-68d6560efe14}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -87,6 +93,12 @@
     <ClInclude Include="LowDungeon.h">
       <Filter>5_LowDungeon</Filter>
     </ClInclude>
+    <ClInclude Include="MiddleDungeon.h">
+      <Filter>5_MiddleDungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="HighDungeon.h">
+      <Filter>HighDungeon</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp">
@@ -127,6 +139,12 @@
     </ClCompile>
     <ClCompile Include="test.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleDungeon.cpp">
+      <Filter>5_MiddleDungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="HighDungeon.cpp">
+      <Filter>HighDungeon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
