@@ -13,6 +13,7 @@ public:
 	void Fight_Inventory();
 	PlayerInfo Get_Info() { return m_playerInfo; }
 	void Set_Player_Name(const char* szName);
+	void Set_UpgradeHp();
 	void Set_Hp(int _iAttack) { m_playerInfo.iHp -= _iAttack; }
 	void Set_FullHp() {m_playerInfo.iHp = iOriginHp; }
 	void Set_InitAttack() { m_playerInfo.iAttack = iUpgradeAttack; }

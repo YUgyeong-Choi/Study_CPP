@@ -8,7 +8,7 @@ Player::Player()
     strcpy_s(m_playerInfo.Job, "");
     m_playerInfo.iHp = 0;
     m_playerInfo.iAttack = 0;
-    m_playerInfo.iMoney = 0;
+    m_playerInfo.iMoney = 2000;
     m_playerInfo.Stage = 1;
     m_playerInfo.weaponLevel = 0;
     iOriginHp = 0;
@@ -41,6 +41,11 @@ void Player::Render()
 void Player::Set_Player_Name(const char* szName)
 {
     strcpy_s(m_playerInfo.szName, sizeof(m_playerInfo.szName), szName);
+}
+
+void Player::Set_UpgradeHp()
+{
+    m_playerInfo.iHp += 10;
 }
 
 

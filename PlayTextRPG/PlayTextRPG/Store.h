@@ -10,5 +10,5 @@ public:
 	void Set_PlayerInfo(Player* _pPlayer);
 private:
 	Player* m_pPlayer;
-	ItemInfo items[6];
+	ItemInfo items[7];
 };

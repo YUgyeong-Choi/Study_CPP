@@ -10,11 +10,14 @@ Store::Store()
     items[1] = { "중형 포션", 70, 30 };
     items[2] = { "대형 포션", 150, 60 };
 
+
     // 무기 강화 아이템 초기화
     items[3] = { "1단계 강화", 50, 50 };
-    items[4] = { "2단계 강화", 100, 100 };
-    items[5] = { "3단계 강화", 150, 200 };
+    items[4] = { "2단계 강화", 100, 150 };
+    items[5] = { "3단계 강화", 150, 300 };
 
+    // Hp 강화 아이템 초기화
+    items[6] = { "Hp 증가", 10, 20 };
 }
 
 void Store::Update()
@@ -30,17 +33,24 @@ void Store::Update()
             cout << "설명: 체력을 " << items[i].add << "만큼 회복시킵니다" << endl;
             cout << "가격: " << items[i].iPriceOrCount << endl;
         }
-
-        int weaponIndex = 3 + m_pPlayer->Get_Info().weaponLevel; 
-        if (weaponIndex < 6) { 
+ 
+        int weaponIndex = m_pPlayer->Get_Info().weaponLevel+3;
+        if (3<=weaponIndex && weaponIndex<=5 ) { 
             cout << "4. " << items[weaponIndex].szName << endl;
             cout << "설명: 기존 데미지의 " << items[weaponIndex].add << "%만큼 강화시킵니다" << endl;
             cout << "가격: " << items[weaponIndex].iPriceOrCount << endl;
         }
+        else if (weaponIndex == 6) {
+            cout << "4. 무기 강화가 완료되었습니다" << endl;
+        }
+
+        cout << "5. Hp 증가";
+        cout << "설명: 영구적으로" << items[6].add << items[6].szName << endl;
+        cout << "가격: " << items[6].iPriceOrCount << endl;
 
         setColor(DARK_VOILET);
         cout << "====================================" << endl; setColor(GRAY);
-        cout << "7.뒤로 가기" << endl;
+        cout << "6.뒤로 가기" << endl;
 
         cin >> _iInput;
 
@@ -54,19 +64,42 @@ void Store::Update()
                 cout << items[_iInput - 1].szName << "을 구매했습니다" << endl;
             }
         }
-        else if (4 <=_iInput&&_iInput<=6) {
-            m_pPlayer->Sub_PlayerMoney(items[_iInput - 1].iPriceOrCount);
-            m_pPlayer->Set_Attack(items[_iInput - 1].add);
-            cout << "무기를 강화했습니다" << endl;
+        else if (_iInput == 4) {
+            if (m_pPlayer->Get_Info().weaponLevel < 3) {
+
+                if (items[weaponIndex].iPriceOrCount > m_pPlayer->Get_Info().iMoney) {
+                    cout << "돈이 부족합니다..." << endl;
+                }
+                else {
+                    m_pPlayer->Sub_PlayerMoney(items[m_pPlayer->Get_Info().weaponLevel].iPriceOrCount);
+                    m_pPlayer->Set_Attack(items[m_pPlayer->Get_Info().weaponLevel].add);
+                    cout << "무기를 강화했습니다!" << endl;
+                }
+            }
+            else {
+                cout << "무기 강화가 최대 상태입니다." << endl;
+            }
         }
-        else if (_iInput == 7) {
+        else if (_iInput == 5) {
+            if (items[_iInput - 1].iPriceOrCount > m_pPlayer->Get_Info().iMoney) {
+                cout << "돈이 없습니다..." << endl;
+            }
+            else {
+                m_pPlayer->Set_UpgradeHp();
+                cout << "Hp가 상승하였습니다" << endl;
+            }
+        }
+        else if (_iInput == 6) {
             cout << "상점을 나갑니다" << endl;
+            system("pause");
             return;
         }
         else {
             cout << "잘못 입력하셨습니다" << endl;
             continue;
         }
+
+        system("pause");
     }
 
 }
