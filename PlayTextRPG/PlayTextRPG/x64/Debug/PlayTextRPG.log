@@ -1,0 +1,19 @@
+﻿  Color.cpp
+  Dungeon.cpp
+  Field.cpp
+  Fighter.cpp
+  HighDungeon.cpp
+  Inventory.cpp
+  Login.cpp
+  LowDungeon.cpp
+  Mage.cpp
+  MainGame.cpp
+  Mainmenu.cpp
+  MiddleDungeon.cpp
+  Monster.cpp
+  Player.cpp
+  Store.cpp
+  TextRpg.cpp
+  Warrior.cpp
+  코드를 생성하고 있습니다...
+  PlayTextRPG.vcxproj -> C:\Users\user\Desktop\Study_CPP\PlayTextRPG\x64\Debug\PlayTextRPG.exe

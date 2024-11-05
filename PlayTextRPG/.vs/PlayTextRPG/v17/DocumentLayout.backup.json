@@ -1,0 +1,600 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Dungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Dungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mainmenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Mainmenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Store.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Store.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Fighter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Fighter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Mage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Store.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Store.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mainmenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Mainmenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Field.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Field.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\TextRpg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\TextRpg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Color.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Color.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\HighDungeon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\HighDungeon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\LowDungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\LowDungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\LowDungeon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\LowDungeon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\HighDungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\HighDungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\MiddleDungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\MiddleDungeon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Dungeon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Dungeon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Mage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Fighter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Fighter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4595FEB8-325E-4967-AA8A-E5BC88034C2B}|PlayTextRPG\\PlayTextRPG.vcxproj|solutionrelative:PlayTextRPG\\Login.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Player.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Player.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Player.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T12:08:35.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Field.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Field.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Field.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Field.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Field.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T10:50:26.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inventory.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Inventory.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Inventory.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Inventory.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Inventory.cpp",
+              "ViewState": "AgIAACIAAAAAAAAAAAAhwCwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T11:54:52.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Inventory.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Inventory.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Inventory.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Inventory.h",
+              "RelativeToolTip": "PlayTextRPG\\Inventory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T11:55:03.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainGame.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\MainGame.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\MainGame.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\MainGame.cpp*",
+              "RelativeToolTip": "PlayTextRPG\\MainGame.cpp*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T12:09:22.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Store.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Store.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Store.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Store.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Store.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T11:04:00.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mainmenu.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mainmenu.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Mainmenu.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mainmenu.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Mainmenu.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T07:32:29.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dungeon.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Dungeon.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Dungeon.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Dungeon.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Dungeon.cpp",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAJoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T06:52:31.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Player.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Player.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Player.h",
+              "RelativeToolTip": "PlayTextRPG\\Player.h",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-01T12:08:44.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainGame.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\MainGame.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\MainGame.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\MainGame.h",
+              "RelativeToolTip": "PlayTextRPG\\MainGame.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-01T12:09:29.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Warrior.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Warrior.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Warrior.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Warrior.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Warrior.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T13:25:32.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Fighter.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Fighter.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Fighter.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Fighter.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Fighter.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T13:25:18.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mage.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mage.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Mage.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mage.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Mage.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T13:25:09.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Define.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Define.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Define.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Define.h",
+              "RelativeToolTip": "PlayTextRPG\\Define.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-01T12:06:07.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\pch.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\pch.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\pch.h",
+              "RelativeToolTip": "PlayTextRPG\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-01T12:01:35.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Monster.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Monster.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Monster.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Monster.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Monster.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T12:09:03.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Store.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Store.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Store.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Store.h",
+              "RelativeToolTip": "PlayTextRPG\\Store.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T11:04:04.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Color.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Color.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Color.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Color.h",
+              "RelativeToolTip": "PlayTextRPG\\Color.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T11:05:48.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Field.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Field.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Field.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Field.h",
+              "RelativeToolTip": "PlayTextRPG\\Field.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T11:13:51.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Mainmenu.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mainmenu.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Mainmenu.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mainmenu.h",
+              "RelativeToolTip": "PlayTextRPG\\Mainmenu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T11:15:18.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TextRpg.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\TextRpg.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\TextRpg.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\TextRpg.cpp",
+              "RelativeToolTip": "PlayTextRPG\\TextRpg.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T13:34:09.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Color.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Color.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Color.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Color.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Color.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T11:09:25.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HighDungeon.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\HighDungeon.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\HighDungeon.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\HighDungeon.h",
+              "RelativeToolTip": "PlayTextRPG\\HighDungeon.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T11:06:11.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LowDungeon.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\LowDungeon.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\LowDungeon.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\LowDungeon.cpp",
+              "RelativeToolTip": "PlayTextRPG\\LowDungeon.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T06:48:54.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HighDungeon.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\HighDungeon.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\HighDungeon.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\HighDungeon.cpp",
+              "RelativeToolTip": "PlayTextRPG\\HighDungeon.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T10:53:18.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MiddleDungeon.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\MiddleDungeon.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\MiddleDungeon.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\MiddleDungeon.cpp",
+              "RelativeToolTip": "PlayTextRPG\\MiddleDungeon.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T10:44:42.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LowDungeon.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\LowDungeon.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\LowDungeon.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\LowDungeon.h",
+              "RelativeToolTip": "PlayTextRPG\\LowDungeon.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T06:48:50.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Monster.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Monster.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Monster.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Monster.h",
+              "RelativeToolTip": "PlayTextRPG\\Monster.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-01T12:09:08.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Dungeon.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Dungeon.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Dungeon.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Dungeon.h",
+              "RelativeToolTip": "PlayTextRPG\\Dungeon.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T06:51:52.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Mage.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mage.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Mage.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Mage.h",
+              "RelativeToolTip": "PlayTextRPG\\Mage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-01T13:25:14.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Login.cpp",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Login.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Login.cpp",
+              "RelativeToolTip": "PlayTextRPG\\Login.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T12:35:36.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Warrior.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Warrior.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Warrior.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Warrior.h",
+              "RelativeToolTip": "PlayTextRPG\\Warrior.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-01T13:25:39.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Fighter.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Fighter.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Fighter.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Fighter.h",
+              "RelativeToolTip": "PlayTextRPG\\Fighter.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-01T13:25:26.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Login.h",
+              "RelativeDocumentMoniker": "PlayTextRPG\\Login.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\PlayTextRPG\\PlayTextRPG\\Login.h",
+              "RelativeToolTip": "PlayTextRPG\\Login.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-01T12:35:41.446Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

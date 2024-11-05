@@ -1,0 +1,22 @@
+﻿  Dungeon.cpp
+  Field.cpp
+  Fighter.cpp
+  HighDungeon.cpp
+  Inventory.cpp
+  Login.cpp
+  LowDungeon.cpp
+  Mage.cpp
+  MainGame.cpp
+  Mainmenu.cpp
+  MiddleDungeon.cpp
+  Monster.cpp
+  Player.cpp
+  Store.cpp
+  TextRpg.cpp
+  Warrior.cpp
+  코드를 생성하고 있습니다.
+  64 of 138 functions (46.4%) were compiled, the rest were copied from previous compilation.
+    21 functions were new in current compilation
+    14 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  PlayTextRPG.vcxproj -> C:\Users\yugyeong\Desktop\Study_CPP\PlayTextRPG\x64\Release\PlayTextRPG.exe
