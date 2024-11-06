@@ -127,12 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="241106hw.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="241024hw.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="ScoreBoard.cpp" />
+    <ClCompile Include="ScoreBoard.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Student.cpp" />
   </ItemGroup>
   <ItemGroup>
