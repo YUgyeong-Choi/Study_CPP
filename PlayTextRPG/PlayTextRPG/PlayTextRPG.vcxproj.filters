@@ -173,6 +173,9 @@
     <ClCompile Include="Minigame.cpp">
       <Filter>8_Minigame</Filter>
     </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Minigame.h">
