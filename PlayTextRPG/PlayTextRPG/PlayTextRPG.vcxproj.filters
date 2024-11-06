@@ -61,6 +61,9 @@
     <Filter Include="8_Minigame">
       <UniqueIdentifier>{7418ee35-32bb-4238-8c8c-2a5af4771cce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="8_Minigame\Roulette">
+      <UniqueIdentifier>{2e1f61ab-d0a8-4cf8-bfe3-23419f0efb5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -116,6 +119,9 @@
     </ClInclude>
     <ClInclude Include="Inventory.h">
       <Filter>6_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Roulette.h">
+      <Filter>8_Minigame\Roulette</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -173,8 +179,8 @@
     <ClCompile Include="Minigame.cpp">
       <Filter>8_Minigame</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Roulette.cpp">
+      <Filter>8_Minigame\Roulette</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
