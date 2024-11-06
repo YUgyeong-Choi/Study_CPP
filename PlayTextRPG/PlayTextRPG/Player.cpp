@@ -46,6 +46,7 @@ void Player::Set_Player_Name(const char* szName)
 void Player::Set_UpgradeHp()
 {
     m_playerInfo.iHp += 10;
+    iOriginHp = m_playerInfo.iHp;
 }
 
 

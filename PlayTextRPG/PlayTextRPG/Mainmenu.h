@@ -2,6 +2,7 @@
 #include "Player.h"
 #include "Field.h"
 #include "Store.h"
+#include "Minigame.h"
 
 class Mainmenu {
 public:
@@ -15,4 +16,5 @@ private:
 	Player* m_pPlayer;
 	Field* m_pField;
 	Store* m_pStore;
+	Minigame* m_pMinigame;
 };

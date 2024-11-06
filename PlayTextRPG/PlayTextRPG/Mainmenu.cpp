@@ -9,6 +9,7 @@ Mainmenu::Mainmenu()
 	m_pPlayer = nullptr; 
 	m_pField = nullptr;
 	m_pStore = nullptr;
+	m_pMinigame = nullptr;
 }
 
 Mainmenu::~Mainmenu()
@@ -20,6 +21,7 @@ void Mainmenu::Release()
 {
 	SAFE_DELETE(m_pField);
 	SAFE_DELETE(m_pStore);
+	SAFE_DELETE(m_pMinigame);
 }
 
 void Mainmenu::Update()
@@ -32,9 +34,10 @@ void Mainmenu::Update()
 		cout << "1. 사냥터" << endl;
 		cout << "2. 인벤토리" << endl;
 		cout << "3. 상점" << endl;
-		cout << "4. 스탯 정보 출력" << endl; setColor(YELLOW);
+		cout << "4. 스탯 정보 출력" << endl; setColor(RED);
+		cout << "5. 도박" << endl; setColor(YELLOW);
 		cout << "====================================" << endl; setColor(GRAY);
-		cout << "5. 뒤로 가기" << endl; 
+		cout << "6. 뒤로 가기" << endl; 
 		cin >> _iInput;
 		cin.ignore();
 		switch (_iInput)
@@ -57,6 +60,11 @@ void Mainmenu::Update()
 			m_pPlayer->Render_Detail();
 			break;
 		case 5:
+			m_pMinigame = new Minigame;
+			m_pMinigame->Set_PlayerInfo(m_pPlayer);
+			m_pMinigame->Update();
+			SAFE_DELETE(m_pMinigame);
+		case 6:
 			return;
 		default:
 			cout << "잘못 입력하셨습니다" << endl;

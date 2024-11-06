@@ -58,6 +58,9 @@
     <Filter Include="7_Store">
       <UniqueIdentifier>{d11dfc50-5fc4-490f-85a9-400c24dd565c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="8_Minigame">
+      <UniqueIdentifier>{7418ee35-32bb-4238-8c8c-2a5af4771cce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -167,5 +170,13 @@
     <ClCompile Include="Inventory.cpp">
       <Filter>6_Inventory</Filter>
     </ClCompile>
+    <ClCompile Include="Minigame.cpp">
+      <Filter>8_Minigame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Minigame.h">
+      <Filter>8_Minigame</Filter>
+    </None>
   </ItemGroup>
 </Project>

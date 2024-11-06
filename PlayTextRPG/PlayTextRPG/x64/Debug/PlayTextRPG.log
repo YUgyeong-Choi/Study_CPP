@@ -1,2 +1,9 @@
-﻿  Store.cpp
+﻿  Login.cpp
+  MainGame.cpp
+  Mainmenu.cpp
+  Minigame.cpp
+  Player.cpp
+  Store.cpp
+  TextRpg.cpp
+  코드를 생성하고 있습니다...
   PlayTextRPG.vcxproj -> C:\Users\yugyeong\Desktop\Study_CPP\PlayTextRPG\x64\Debug\PlayTextRPG.exe

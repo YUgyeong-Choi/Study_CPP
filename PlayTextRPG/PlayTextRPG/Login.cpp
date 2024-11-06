@@ -114,9 +114,9 @@ void Login::Create_Name() {
 	while (true) {
 		system("cls");
 		setColor(YELLOW);
-		cout << m_pPlayer->Get_Info().Job << "을 선택하셨습니다 !" << endl;
+		cout << m_pPlayer->Get_Info().Job; setColor(GRAY);
+		cout << "을 선택하셨습니다 !" << endl;
 		cout << "사용할 닉네임을 작성해주세요 "<<endl;
-		setColor(GRAY);
 		cin >> _szName;
 
 		if (strlen(_szName) > 0) {
