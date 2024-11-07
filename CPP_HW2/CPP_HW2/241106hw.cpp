@@ -2,12 +2,12 @@
 #include <string>
 
 
-class MyString {
+class MyString2 {
 public:
-	MyString() { memset(szName, 0, sizeof(szName)); }
-	~MyString(){}
+	MyString2() { memset(szName, 0, sizeof(szName)); }
+	~MyString2(){}
 public:
-	MyString& operator =(const char* data) {
+	MyString2& operator =(const char* data) {
 		int i = 0;
 		while (data[i] != '\0' && i < sizeof(szName) - 1) {
 			szName[i] = data[i];
@@ -17,8 +17,8 @@ public:
 		return *this;
 	}
 
-	MyString operator +(const char* data) {
-		MyString newString;
+	MyString2 operator +(const char* data) {
+		MyString2 newString;
 
 		int i = 0;
 		while (szName[i] != '\0' && i < sizeof(newString.szName) - 1) {
@@ -54,7 +54,7 @@ public:
 		return true;
 	}
 
-	bool operator ==(const MyString& data) {
+	bool operator ==(const MyString2& data) {
 		int i = 0;
 		while (szName[i] != '\0') ++i;
 		int j = 0;
@@ -87,11 +87,11 @@ private:
 
 
 int main() {
-	MyString str1;
+	MyString2 str1;
 	str1 = "aaa";
 	str1.Render();
 	
-	MyString str2;
+	MyString2 str2;
 	str2 = str1 + "bbb";
 	str2.Render();
 

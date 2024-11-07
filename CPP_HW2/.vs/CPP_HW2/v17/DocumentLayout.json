@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241107hwre.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\241107hwre.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MyString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\MyString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MyString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\MyString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241024hw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\241024hw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\ScoreBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\ScoreBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -19,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\ScoreBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\ScoreBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\Define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\Define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241024hw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F0FD2B6F-3B6A-4261-9A7E-990E3A50E08A}|CPP_HW2\\CPP_HW2.vcxproj|solutionrelative:CPP_HW2\\241024hw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +66,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "241107hwre.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241107hwre.cpp",
+              "RelativeDocumentMoniker": "CPP_HW2\\241107hwre.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241107hwre.cpp",
+              "RelativeToolTip": "CPP_HW2\\241107hwre.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-07T13:25:12.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyString.h",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MyString.h",
+              "RelativeDocumentMoniker": "CPP_HW2\\MyString.h",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MyString.h",
+              "RelativeToolTip": "CPP_HW2\\MyString.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-07T13:02:11.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyString.cpp",
+              "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MyString.cpp",
+              "RelativeDocumentMoniker": "CPP_HW2\\MyString.cpp",
+              "ToolTip": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MyString.cpp",
+              "RelativeToolTip": "CPP_HW2\\MyString.cpp",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwC8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-07T13:02:05.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\pch.h",
               "RelativeDocumentMoniker": "CPP_HW2\\pch.h",
@@ -66,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Define.h",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\Define.h",
               "RelativeDocumentMoniker": "CPP_HW2\\Define.h",
@@ -78,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "241024hw.cpp",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\241024hw.cpp",
               "RelativeDocumentMoniker": "CPP_HW2\\241024hw.cpp",
@@ -86,7 +137,8 @@
               "RelativeToolTip": "CPP_HW2\\241024hw.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-27T10:45:21.044Z"
+              "WhenOpened": "2024-10-27T10:45:21.044Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Student.h",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\Student.h",
               "RelativeDocumentMoniker": "CPP_HW2\\Student.h",
@@ -111,12 +163,11 @@
               "RelativeToolTip": "CPP_HW2\\Student.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-25T07:48:27.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T07:48:27.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Student.cpp",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\Student.cpp",
               "RelativeDocumentMoniker": "CPP_HW2\\Student.cpp",
@@ -124,12 +175,11 @@
               "RelativeToolTip": "CPP_HW2\\Student.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T07:48:21.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T07:48:21.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MainGame.h",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MainGame.h",
               "RelativeDocumentMoniker": "CPP_HW2\\MainGame.h",
@@ -137,12 +187,11 @@
               "RelativeToolTip": "CPP_HW2\\MainGame.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-25T07:48:07.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T07:48:07.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MainGame.cpp",
               "DocumentMoniker": "C:\\Users\\yugyeong\\Desktop\\Study_CPP\\CPP_HW2\\CPP_HW2\\MainGame.cpp",
               "RelativeDocumentMoniker": "CPP_HW2\\MainGame.cpp",

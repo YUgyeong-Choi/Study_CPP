@@ -19,6 +19,9 @@
     <Filter Include="Student">
       <UniqueIdentifier>{66a266b6-5d08-437f-b21f-f086b5c19f08}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MyString">
+      <UniqueIdentifier>{6e9024b0-65cd-4d83-85b1-8ab77c319d48}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="241024hw.cpp">
@@ -39,6 +42,12 @@
     <ClCompile Include="241106hw.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>MyString</Filter>
+    </ClCompile>
+    <ClCompile Include="241107hwre.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -52,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="Define.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>MyString</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
