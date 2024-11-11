@@ -5,7 +5,7 @@
 class Player {
 public:
 	Player();
-	~Player();
+	virtual ~Player();
 public:
 	void Render();
 	void Render_Detail();

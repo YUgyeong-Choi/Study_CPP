@@ -5,7 +5,7 @@
 class Dungeon {
 public:
 	Dungeon();
-	~Dungeon();
+	virtual ~Dungeon();
 public:
 	void Update();
 	void Release();
