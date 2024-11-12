@@ -1,9 +1,9 @@
 #include <iostream>
-#include "SimpleLinked.h"
+#include "SinglyLinkedList.h"
 using namespace std;
 
 int main() {
-	SimpleList<int> aa;
+	SingleList<int> aa;
 	aa.insert(10);
 	aa.insert(20);
 	aa.insert(30);

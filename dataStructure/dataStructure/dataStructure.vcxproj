@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SimpleLinkedMain.cpp" />
+    <ClCompile Include="DoubleLinkedMain.cpp" />
+    <ClCompile Include="DoublyLinkedList.h" />
+    <ClCompile Include="SinglyLinkedMain.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SimpleLinked.h" />
+    <ClInclude Include="SinglyLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

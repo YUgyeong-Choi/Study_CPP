@@ -13,18 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="SimpleLinkedList">
+    <Filter Include="DoublyLinkedList">
+      <UniqueIdentifier>{796e42e1-9762-4e7b-a6cd-a1873c3cedf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SinglyLinkedList">
       <UniqueIdentifier>{f7c65707-50db-4377-ac2a-737ea9451ee2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SimpleLinkedMain.cpp">
+    <ClCompile Include="SinglyLinkedMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DoublyLinkedList.h">
+      <Filter>DoublyLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLinkedMain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SimpleLinked.h">
-      <Filter>SimpleLinkedList</Filter>
+    <ClInclude Include="SinglyLinkedList.h">
+      <Filter>SinglyLinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

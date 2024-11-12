@@ -2,10 +2,10 @@
 #include <iostream>
 using namespace std;
 
-template <class TYPE> class SimpleList {
+template <class TYPE> class SingleList {
 public:
-	SimpleList();
-	~SimpleList();
+	SingleList();
+	~SingleList();
 public:
 	void printList();
 	void insert(TYPE new_data);
@@ -19,14 +19,14 @@ protected:
 };
 
 template<class TYPE>
-SimpleList<TYPE>::SimpleList()
+SingleList<TYPE>::SingleList()
 {
 	head = new Node();
 	head->pNext = nullptr;
 }
 
 template<class TYPE>
-SimpleList<TYPE>::~SimpleList()
+SingleList<TYPE>::~SingleList()
 {
 	Node* cur = head->pNext;
 	while (cur->pNext != nullptr) {
@@ -37,7 +37,7 @@ SimpleList<TYPE>::~SimpleList()
 }
 
 template<class TYPE>
-void SimpleList<TYPE>::printList()
+void SingleList<TYPE>::printList()
 {
 	Node* cur = head->pNext;
 	while (cur->pNext != nullptr) {
@@ -48,7 +48,7 @@ void SimpleList<TYPE>::printList()
 }
 
 template<class TYPE>
-void SimpleList<TYPE>::insert(TYPE new_data)
+void SingleList<TYPE>::insert(TYPE new_data)
 {
 	if (head->pNext == nullptr) {
 		Node* new_Node = new Node();
@@ -65,7 +65,7 @@ void SimpleList<TYPE>::insert(TYPE new_data)
 }
 
 template<class TYPE>
-void SimpleList<TYPE>::deleteNode(TYPE new_data)
+void SingleList<TYPE>::deleteNode(TYPE new_data)
 {
 	Node* cur = head;
 	while (cur->pNext != nullptr) {
