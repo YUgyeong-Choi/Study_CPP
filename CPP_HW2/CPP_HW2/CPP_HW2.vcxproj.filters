@@ -22,6 +22,9 @@
     <Filter Include="MyString">
       <UniqueIdentifier>{6e9024b0-65cd-4d83-85b1-8ab77c319d48}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MainGame2">
+      <UniqueIdentifier>{c01afcf5-1204-4f3c-8f74-4ce86b7cb88f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="241024hw.cpp">
@@ -48,6 +51,12 @@
     <ClCompile Include="241107hwre.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="241112hw.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame2.cpp">
+      <Filter>MainGame2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -64,6 +73,9 @@
     </ClInclude>
     <ClInclude Include="MyString.h">
       <Filter>MyString</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame2.h">
+      <Filter>MainGame2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
