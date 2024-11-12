@@ -12,7 +12,7 @@ int main() {
 	aa.insert(60);
 	aa.printList();
 
-	cout << "»èÁ¦ ÈÄ" << endl;
+	cout << "============" << endl;
 	aa.deleteNode(20);
 	aa.printList();
 

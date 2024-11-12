@@ -22,6 +22,9 @@
     <Filter Include="CricleDoublyLinkedList">
       <UniqueIdentifier>{bec52e9b-58cc-48a3-8539-b50ae124fc3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CricleSinglyLinkedList">
+      <UniqueIdentifier>{8df39de4-5de8-4350-b667-79407cb984cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SinglyLinkedMain.cpp">
@@ -36,6 +39,9 @@
     <ClCompile Include="CircleDoublyLinkedMain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CircleSinglyLinkedMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SinglyLinkedList.h">
@@ -43,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="CirlceDoublyLinkedList.h">
       <Filter>CricleDoublyLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CricleSinglyLinkedList.h">
+      <Filter>CricleSinglyLinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
