@@ -4,9 +4,9 @@
 
 Inventory::Inventory()
 {
-	items[0] = { "소형 포션", 30, 0 };
-	items[1] = { "중형 포션", 70, 0 };
-	items[2] = { "대형 포션", 150, 0 };
+	items[0] = { "소형 포션", 30, 0, 0 };
+	items[1] = { "중형 포션", 70, 0,0 };
+	items[2] = { "대형 포션", 150, 0,0 };
 }
 
 void Inventory::Render()
@@ -38,9 +38,4 @@ void Inventory::Fight_Render()
 void Inventory::Add_Items(int _index)
 {
 	items[_index].iPriceOrCount++;
-}
-
-void Inventory::Sub_Items(int _index)
-{
-	items[_index].iPriceOrCount--;
 }

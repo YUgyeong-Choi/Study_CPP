@@ -34,24 +34,6 @@
     <Filter Include="b_Monster">
       <UniqueIdentifier>{c1acc9db-f55d-458a-8eff-125ff2429ac9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="a_Mage">
-      <UniqueIdentifier>{c467f08f-a4d0-49c0-857b-ab1dd0506065}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="a_Warrior">
-      <UniqueIdentifier>{1af41247-ad22-4503-bf7c-90ca13a3ec86}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="a_Fighter">
-      <UniqueIdentifier>{c002f206-c015-4774-8dc7-eb185f3e0e99}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="5_LowDungeon">
-      <UniqueIdentifier>{471efe68-e5a8-473d-bdc3-e72fb1a386d8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="5_MiddleDungeon">
-      <UniqueIdentifier>{f6b624b6-1789-4408-b009-7f68b9ffed31}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="5_HighDungeon">
-      <UniqueIdentifier>{70e9c3ec-6b9c-41a7-8f22-68d6560efe14}</UniqueIdentifier>
-    </Filter>
     <Filter Include="6_Inventory">
       <UniqueIdentifier>{7d13f486-31e3-4155-bbfb-6acbc2094260}</UniqueIdentifier>
     </Filter>
@@ -63,6 +45,27 @@
     </Filter>
     <Filter Include="8_Minigame\Roulette">
       <UniqueIdentifier>{2e1f61ab-d0a8-4cf8-bfe3-23419f0efb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5_Dungeon\5_HighDungeon">
+      <UniqueIdentifier>{70e9c3ec-6b9c-41a7-8f22-68d6560efe14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5_Dungeon\5_LowDungeon">
+      <UniqueIdentifier>{471efe68-e5a8-473d-bdc3-e72fb1a386d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5_Dungeon\5_MiddleDungeon">
+      <UniqueIdentifier>{f6b624b6-1789-4408-b009-7f68b9ffed31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a_Player\a_Fighter">
+      <UniqueIdentifier>{c002f206-c015-4774-8dc7-eb185f3e0e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a_Player\a_Mage">
+      <UniqueIdentifier>{c467f08f-a4d0-49c0-857b-ab1dd0506065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a_Player\a_Warrior">
+      <UniqueIdentifier>{1af41247-ad22-4503-bf7c-90ca13a3ec86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Item">
+      <UniqueIdentifier>{d39c63f2-5684-4638-882a-b6bc900487fb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -88,13 +91,13 @@
       <Filter>3_Mainmenu</Filter>
     </ClInclude>
     <ClInclude Include="Mage.h">
-      <Filter>a_Mage</Filter>
+      <Filter>a_Player\a_Mage</Filter>
     </ClInclude>
     <ClInclude Include="Fighter.h">
-      <Filter>a_Fighter</Filter>
+      <Filter>a_Player\a_Fighter</Filter>
     </ClInclude>
     <ClInclude Include="Warrior.h">
-      <Filter>a_Warrior</Filter>
+      <Filter>a_Player\a_Warrior</Filter>
     </ClInclude>
     <ClInclude Include="Dungeon.h">
       <Filter>5_Dungeon</Filter>
@@ -103,13 +106,13 @@
       <Filter>4_Field</Filter>
     </ClInclude>
     <ClInclude Include="LowDungeon.h">
-      <Filter>5_LowDungeon</Filter>
+      <Filter>5_Dungeon\5_LowDungeon</Filter>
     </ClInclude>
     <ClInclude Include="MiddleDungeon.h">
-      <Filter>5_MiddleDungeon</Filter>
+      <Filter>5_Dungeon\5_MiddleDungeon</Filter>
     </ClInclude>
     <ClInclude Include="HighDungeon.h">
-      <Filter>5_HighDungeon</Filter>
+      <Filter>5_Dungeon\5_HighDungeon</Filter>
     </ClInclude>
     <ClInclude Include="Color.h">
       <Filter>헤더 파일</Filter>
@@ -122,6 +125,9 @@
     </ClInclude>
     <ClInclude Include="Roulette.h">
       <Filter>8_Minigame\Roulette</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>9_Item</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -144,13 +150,13 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Mage.cpp">
-      <Filter>a_Mage</Filter>
+      <Filter>a_Player\a_Mage</Filter>
     </ClCompile>
     <ClCompile Include="Fighter.cpp">
-      <Filter>a_Fighter</Filter>
+      <Filter>a_Player\a_Fighter</Filter>
     </ClCompile>
     <ClCompile Include="Warrior.cpp">
-      <Filter>a_Warrior</Filter>
+      <Filter>a_Player\a_Warrior</Filter>
     </ClCompile>
     <ClCompile Include="Dungeon.cpp">
       <Filter>5_Dungeon</Filter>
@@ -159,13 +165,13 @@
       <Filter>4_Field</Filter>
     </ClCompile>
     <ClCompile Include="LowDungeon.cpp">
-      <Filter>5_LowDungeon</Filter>
+      <Filter>5_Dungeon\5_LowDungeon</Filter>
     </ClCompile>
     <ClCompile Include="MiddleDungeon.cpp">
-      <Filter>5_MiddleDungeon</Filter>
+      <Filter>5_Dungeon\5_MiddleDungeon</Filter>
     </ClCompile>
     <ClCompile Include="HighDungeon.cpp">
-      <Filter>5_HighDungeon</Filter>
+      <Filter>5_Dungeon\5_HighDungeon</Filter>
     </ClCompile>
     <ClCompile Include="Color.cpp">
       <Filter>소스 파일</Filter>
@@ -181,6 +187,9 @@
     </ClCompile>
     <ClCompile Include="Roulette.cpp">
       <Filter>8_Minigame\Roulette</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>9_Item</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

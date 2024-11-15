@@ -1,7 +1,73 @@
-﻿  Minigame.cpp
-  코드를 생성하고 있습니다.
-  2 of 271 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    19 functions had inline decision re-evaluated but remain unchanged
-  코드를 생성했습니다.
-  PlayTextRPG.vcxproj -> C:\Users\yugyeong\Desktop\Study_CPP\PlayTextRPG\x64\Release\PlayTextRPG.exe
+﻿  Dungeon.cpp
+  Field.cpp
+  Fighter.cpp
+  HighDungeon.cpp
+  Inventory.cpp
+  Item.cpp
+  Login.cpp
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Inventory.cpp(18,48): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Inventory.cpp(31,48): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Inventory.cpp(40,16): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+  LowDungeon.cpp
+  Mage.cpp
+  MainGame.cpp
+  Mainmenu.cpp
+  MiddleDungeon.cpp
+  Minigame.cpp
+  Monster.cpp
+  Player.cpp
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Player.cpp(114,70): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+  Roulette.cpp
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Roulette.cpp(68,24): error C2039: 'Sub_PlayerMoney': 'Player'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Player.h(5,7):
+  'Player' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Roulette.cpp(99,19): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Roulette.cpp(177,19): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Store.cpp
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Store.cpp(34,44): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Store.cpp(41,54): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Store.cpp(49,40): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Store.cpp(58,36): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Store.cpp(62,64): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Store.cpp(69,40): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Store.cpp(73,90): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Store.cpp(83,36): error C2039: 'iPriceOrCount': 'ItemInfo'의 멤버가 아닙니다.
+  C:\Users\user\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Define.h(50,16):
+  'ItemInfo' 선언을 참조하십시오.
+  
+  TextRpg.cpp
+  Warrior.cpp

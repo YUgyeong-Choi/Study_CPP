@@ -1,6 +1,24 @@
 #pragma once
-#define SAFE_DELETE(p) if(p) { delete p; p = nullptr;}
-#define SAFE_DELETE_ARRAY(p) if(p) { delete [] p; p = nullptr;}
+
+template<typename T>
+void	SAFE_DELETE(T & Temp)
+{
+    if (Temp)
+    {
+        delete Temp;
+        Temp = nullptr;
+    }
+}
+
+template<typename T>
+void	SAFE_DELETE_ARRAY(T& Temp)
+{
+    if (Temp)
+    {
+        delete[] Temp;
+        Temp = nullptr;
+    }
+}
 
 
 typedef struct {
@@ -31,6 +49,11 @@ typedef struct {
 
 typedef struct {
     char szName[32];
-    int add;
-    int iPriceOrCount;
+    int iHp;
+    int iAttack;
+    int iPrice;
 }ItemInfo;
+
+
+enum ITEMTYPE { IT_WEAPON, IT_ARMOR, IT_POSTION };
+enum STATE { EQUIP, UNEQUIP };

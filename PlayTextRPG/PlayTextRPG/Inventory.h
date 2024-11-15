@@ -8,7 +8,6 @@ public:
 	ItemInfo* Get_InventoryInfo() { return items; }
 	void Fight_Render();
 	void Add_Items(int _index);
-	void Sub_Items(int _index);
 private:
 	ItemInfo items[6];
 };

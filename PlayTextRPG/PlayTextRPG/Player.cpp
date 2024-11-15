@@ -8,7 +8,7 @@ Player::Player()
     strcpy_s(m_playerInfo.Job, "");
     m_playerInfo.iHp = 0;
     m_playerInfo.iAttack = 0;
-    m_playerInfo.iMoney = 2000;
+    m_playerInfo.iMoney = 0;
     m_playerInfo.Stage = 1;
     m_playerInfo.weaponLevel = 0;
     iOriginHp = 0;
@@ -119,8 +119,8 @@ void Player::Fight_Inventory()
                 cin.get();
             }
             else {
-                m_playerInfo.iHp += m_playerInventory->Get_InventoryInfo()[index].add;
-                m_playerInventory->Sub_Items(index);
+                m_playerInfo.iHp += m_playerInventory->Get_InventoryInfo()[index].iHp;
+                m_playerInventory->Add_Items(-index);
                 cout << "아이템을 사용했습니다" << endl;
                 cin.ignore();
                 cin.get();

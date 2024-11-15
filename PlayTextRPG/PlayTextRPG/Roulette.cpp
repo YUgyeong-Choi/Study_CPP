@@ -60,6 +60,7 @@ void Roulette::Update() {
             cout << payment<<" 배당금을 얻었습니다!" << endl;
             m_pPlayer->Add_PlayerMoney(payment + money);
             cout << "나의 돈: " << m_pPlayer->Get_Info().iMoney << endl;
+
             system("pause");
         }
         else {
@@ -68,6 +69,28 @@ void Roulette::Update() {
             cout << "나의 돈: " << m_pPlayer->Get_Info().iMoney << endl;
             system("pause");
         }
+
+        bool isContinue = false;
+        while (1) {
+            int _iInput(0);
+            cout << "1. 계속하기 2.나가기" << endl;
+            cin >> _iInput;
+
+            switch (_iInput)
+            {
+            case 1:
+                isContinue = true;
+                break;
+            case 2:
+                return;
+            default:
+                cout<<"잘못 입력하셨습니다"<<endl;
+                continue;
+            }
+
+            if (isContinue) break;
+        }
+
     }
 }
 

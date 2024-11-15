@@ -20,7 +20,6 @@ public:
 	void Set_Stage() { m_playerInfo.Stage++; }
 	void Set_Attack(int _add);
 	void Add_PlayerMoney(int _iMoney) { m_playerInfo.iMoney += _iMoney; }
-	void Sub_PlayerMoney(int _iMoney) { m_playerInfo.iMoney -= _iMoney; }
 	void Add_Items(int _iIndex) { m_playerInventory->Add_Items(_iIndex); }
 	virtual void Skill1();
 	virtual int Skill2();
