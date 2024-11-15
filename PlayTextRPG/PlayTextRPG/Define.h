@@ -1,5 +1,7 @@
 #pragma once
 
+#define PURE = 0
+
 template<typename T>
 void	SAFE_DELETE(T & Temp)
 {
@@ -55,5 +57,5 @@ typedef struct {
 }ItemInfo;
 
 
-enum ITEMTYPE { IT_WEAPON, IT_ARMOR, IT_POSTION };
+enum ITEMTYPE { NONE, IT_WEAPON, IT_ARMOR, IT_POSTION };
 enum STATE { EQUIP, UNEQUIP };

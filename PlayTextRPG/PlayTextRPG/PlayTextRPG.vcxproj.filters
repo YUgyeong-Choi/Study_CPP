@@ -28,23 +28,8 @@
     <Filter Include="1_MainGame">
       <UniqueIdentifier>{cbc2f3d3-7325-48b8-9037-7fe5e66b2edf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="a_Player">
-      <UniqueIdentifier>{8e6717db-a36c-4254-b815-cf1b0edafb43}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="b_Monster">
-      <UniqueIdentifier>{c1acc9db-f55d-458a-8eff-125ff2429ac9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="6_Inventory">
       <UniqueIdentifier>{7d13f486-31e3-4155-bbfb-6acbc2094260}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="7_Store">
-      <UniqueIdentifier>{d11dfc50-5fc4-490f-85a9-400c24dd565c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="8_Minigame">
-      <UniqueIdentifier>{7418ee35-32bb-4238-8c8c-2a5af4771cce}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="8_Minigame\Roulette">
-      <UniqueIdentifier>{2e1f61ab-d0a8-4cf8-bfe3-23419f0efb5d}</UniqueIdentifier>
     </Filter>
     <Filter Include="5_Dungeon\5_HighDungeon">
       <UniqueIdentifier>{70e9c3ec-6b9c-41a7-8f22-68d6560efe14}</UniqueIdentifier>
@@ -55,6 +40,36 @@
     <Filter Include="5_Dungeon\5_MiddleDungeon">
       <UniqueIdentifier>{f6b624b6-1789-4408-b009-7f68b9ffed31}</UniqueIdentifier>
     </Filter>
+    <Filter Include="7_Storemenu">
+      <UniqueIdentifier>{d11dfc50-5fc4-490f-85a9-400c24dd565c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Minigame">
+      <UniqueIdentifier>{7418ee35-32bb-4238-8c8c-2a5af4771cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Minigame\Roulette">
+      <UniqueIdentifier>{2e1f61ab-d0a8-4cf8-bfe3-23419f0efb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Item">
+      <UniqueIdentifier>{d39c63f2-5684-4638-882a-b6bc900487fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="b_Monster">
+      <UniqueIdentifier>{c1acc9db-f55d-458a-8eff-125ff2429ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8_Store">
+      <UniqueIdentifier>{b19c35ab-4ae5-4e86-a4fd-a321740e4462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8_Store\AmorStore">
+      <UniqueIdentifier>{74f29741-9440-49c3-89af-e5b8be52505b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8_Store\WeaponStore">
+      <UniqueIdentifier>{73065437-5d48-4c73-ad75-033d89d80273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8_Store\PostionStore">
+      <UniqueIdentifier>{36222252-0b52-4f96-af08-80fa386543f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a_Player">
+      <UniqueIdentifier>{8e6717db-a36c-4254-b815-cf1b0edafb43}</UniqueIdentifier>
+    </Filter>
     <Filter Include="a_Player\a_Fighter">
       <UniqueIdentifier>{c002f206-c015-4774-8dc7-eb185f3e0e99}</UniqueIdentifier>
     </Filter>
@@ -63,9 +78,6 @@
     </Filter>
     <Filter Include="a_Player\a_Warrior">
       <UniqueIdentifier>{1af41247-ad22-4503-bf7c-90ca13a3ec86}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="9_Item">
-      <UniqueIdentifier>{d39c63f2-5684-4638-882a-b6bc900487fb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -117,17 +129,29 @@
     <ClInclude Include="Color.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Store.h">
-      <Filter>7_Store</Filter>
+    <ClInclude Include="Storemenu.h">
+      <Filter>7_Storemenu</Filter>
     </ClInclude>
     <ClInclude Include="Inventory.h">
       <Filter>6_Inventory</Filter>
     </ClInclude>
     <ClInclude Include="Roulette.h">
-      <Filter>8_Minigame\Roulette</Filter>
+      <Filter>9_Minigame\Roulette</Filter>
     </ClInclude>
     <ClInclude Include="Item.h">
-      <Filter>9_Item</Filter>
+      <Filter>10_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="PostionStore.h">
+      <Filter>8_Store\PostionStore</Filter>
+    </ClInclude>
+    <ClInclude Include="AmorStore.h">
+      <Filter>8_Store\AmorStore</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>8_Store</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponStore.h">
+      <Filter>8_Store\WeaponStore</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -176,25 +200,37 @@
     <ClCompile Include="Color.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Store.cpp">
-      <Filter>7_Store</Filter>
+    <ClCompile Include="Storemenu.cpp">
+      <Filter>7_Storemenu</Filter>
     </ClCompile>
     <ClCompile Include="Inventory.cpp">
       <Filter>6_Inventory</Filter>
     </ClCompile>
     <ClCompile Include="Minigame.cpp">
-      <Filter>8_Minigame</Filter>
+      <Filter>9_Minigame</Filter>
     </ClCompile>
     <ClCompile Include="Roulette.cpp">
-      <Filter>8_Minigame\Roulette</Filter>
+      <Filter>9_Minigame\Roulette</Filter>
+    </ClCompile>
+    <ClCompile Include="PostionStore.cpp">
+      <Filter>8_Store\PostionStore</Filter>
+    </ClCompile>
+    <ClCompile Include="AmorStore.cpp">
+      <Filter>8_Store\AmorStore</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>8_Store</Filter>
     </ClCompile>
     <ClCompile Include="Item.cpp">
-      <Filter>9_Item</Filter>
+      <Filter>10_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponStore.cpp">
+      <Filter>8_Store\WeaponStore</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Minigame.h">
-      <Filter>8_Minigame</Filter>
+      <Filter>9_Minigame</Filter>
     </None>
   </ItemGroup>
 </Project>

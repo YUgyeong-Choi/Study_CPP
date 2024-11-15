@@ -1,7 +1,7 @@
 #pragma once
 #include "Player.h"
 #include "Field.h"
-#include "Store.h"
+#include "Storemenu.h"
 #include "Minigame.h"
 
 class Mainmenu {
@@ -15,6 +15,6 @@ public:
 private:
 	Player* m_pPlayer;
 	Field* m_pField;
-	Store* m_pStore;
+	Storemenu* m_pStoremenu;
 	Minigame* m_pMinigame;
 };

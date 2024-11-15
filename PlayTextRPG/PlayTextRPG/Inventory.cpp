@@ -15,7 +15,7 @@ void Inventory::Render()
 	setColor(SKYBLUE);
 	cout << "============== 내 아이템 ===========" << endl; setColor(GRAY);
 	for (int i = 0; i < 3; ++i) {
-		cout << items[i].szName << " : " << items[i].iPriceOrCount<<endl;
+		cout << items[i].szName << " : " << items[i].iPrice<<endl;
 	}
 	setColor(SKYBLUE);
 	cout << "====================================" << endl; setColor(GRAY);
@@ -28,7 +28,7 @@ void Inventory::Fight_Render()
 	setColor(SKYBLUE);
 	cout << "============== 내 아이템 ===========" << endl; setColor(GRAY);
 	for (int i = 0; i < 3; ++i) {
-		cout << items[i].szName << " : " << items[i].iPriceOrCount << endl;
+		cout << items[i].szName << " : " << items[i].iPrice << endl;
 	}
 	setColor(SKYBLUE);
 	cout << "====================================" << endl; setColor(GRAY);
@@ -37,5 +37,5 @@ void Inventory::Fight_Render()
 
 void Inventory::Add_Items(int _index)
 {
-	items[_index].iPriceOrCount++;
+	items[_index].iPrice++;
 }

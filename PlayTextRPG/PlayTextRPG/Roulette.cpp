@@ -65,7 +65,7 @@ void Roulette::Update() {
         }
         else {
             cout << "돈을 잃었습니다" << endl;
-            m_pPlayer->Sub_PlayerMoney(money);
+            m_pPlayer->Add_PlayerMoney(-money);
             cout << "나의 돈: " << m_pPlayer->Get_Info().iMoney << endl;
             system("pause");
         }
@@ -96,7 +96,7 @@ void Roulette::Update() {
 
 void Roulette::Render(int i)
 {
-    int spinCount = rouletteNumbers.size();
+    size_t spinCount = rouletteNumbers.size();
     int half = spinCount / 2;
     for (int j = 0; j < half; j++) {
         cout << rouletteNumbers[j] << '\t';
@@ -174,7 +174,7 @@ int Roulette::spinAndDisplay() {
     mt19937 gen(rd());
     uniform_int_distribution<> dist(410, 500);
     int maxDelay = dist(gen);  // 410에서 500 사이의 랜덤 값으로 maxDelay 설정
-    int spinCount = rouletteNumbers.size();
+    size_t spinCount = rouletteNumbers.size();
     int half = spinCount / 2;
 
     int i = 0;  // 회전 인덱스 초기화

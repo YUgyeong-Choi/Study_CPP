@@ -111,7 +111,7 @@ void Player::Fight_Inventory()
      
         if (1 <= _iInput && _iInput <= 3) {
             int index = _iInput - 1; 
-            int item = m_playerInventory->Get_InventoryInfo()[index].iPriceOrCount; 
+            int item = m_playerInventory->Get_InventoryInfo()[index].iPrice; 
 
             if (item <= 0) {
                 cout << "아이템을 보유하고 있지 않습니다" << endl;

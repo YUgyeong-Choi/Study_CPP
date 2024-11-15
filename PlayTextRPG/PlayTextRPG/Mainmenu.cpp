@@ -8,7 +8,7 @@ Mainmenu::Mainmenu()
 {
 	m_pPlayer = nullptr; 
 	m_pField = nullptr;
-	m_pStore = nullptr;
+	m_pStoremenu = nullptr;
 	m_pMinigame = nullptr;
 }
 
@@ -20,7 +20,7 @@ Mainmenu::~Mainmenu()
 void Mainmenu::Release()
 {
 	SAFE_DELETE(m_pField);
-	SAFE_DELETE(m_pStore);
+	SAFE_DELETE(m_pStoremenu);
 	SAFE_DELETE(m_pMinigame);
 }
 
@@ -32,7 +32,7 @@ void Mainmenu::Update()
 		setColor(YELLOW);
 		cout << "============= Main Menu ============" << endl; setColor(GRAY);
 		cout << "1. 사냥터" << endl;
-		cout << "2. 인벤토리" << endl;
+		cout << "2. 인벤토리 & 장비" << endl;
 		cout << "3. 상점" << endl;
 		cout << "4. 스탯 정보 출력" << endl; setColor(RED);
 		cout << "5. 도박" << endl; setColor(YELLOW);
@@ -51,10 +51,10 @@ void Mainmenu::Update()
 			m_pPlayer->Render_Inventory();
 			break;
 		case 3:
-			m_pStore = new Store;
-			m_pStore->Set_PlayerInfo(m_pPlayer);
-			m_pStore->Update();
-			SAFE_DELETE(m_pStore);
+			m_pStoremenu = new Storemenu;
+			m_pStoremenu->Set_PlayerInfo(m_pPlayer);
+			m_pStoremenu->Update();
+			SAFE_DELETE(m_pStoremenu);
 			break;
 		case 4:
 			m_pPlayer->Render_Detail();
