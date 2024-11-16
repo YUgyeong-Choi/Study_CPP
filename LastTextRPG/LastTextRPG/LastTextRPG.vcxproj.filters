@@ -13,5 +13,108 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="00_MainGame">
+      <UniqueIdentifier>{aa48368f-4b3e-44a2-8139-96ef180d6e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a0_Player">
+      <UniqueIdentifier>{b46ee12a-7319-45ad-80b3-a876d3b8643b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="b0_Monster">
+      <UniqueIdentifier>{da85abab-e628-4151-979a-c27de608cc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Login">
+      <UniqueIdentifier>{bfe80cc9-83ab-4334-b0c6-b1e065d24c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_MainMenu">
+      <UniqueIdentifier>{6d2c78ad-f2bd-4206-a0f6-0c5c9c3cd9d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Field">
+      <UniqueIdentifier>{6c31ff70-c97f-48e9-8efe-6736fab22d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Dungeon">
+      <UniqueIdentifier>{fca06d58-54a4-4d9d-963d-f76a23cfbde7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_ShopMenu">
+      <UniqueIdentifier>{23e23520-cd7e-4290-835e-ec3d5afcce5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Shop">
+      <UniqueIdentifier>{3e4f7acf-845f-4158-b5e6-26b2e6e03079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_Inventory">
+      <UniqueIdentifier>{cef60a9a-c755-4e0a-b390-64bca552644a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Item">
+      <UniqueIdentifier>{16a1dc22-15f4-4373-a422-f49054c0fcf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Item\1_Equipment">
+      <UniqueIdentifier>{6fe7d1f2-4d52-4405-8fb3-654ce2b82296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Item\2_Potion">
+      <UniqueIdentifier>{654ff326-abe9-4e82-9f48-8e54fd9dcb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a0_Player\1_Warrior">
+      <UniqueIdentifier>{c48a06cc-efdf-4047-b4d5-7711305479a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a0_Player\2_Mage">
+      <UniqueIdentifier>{70326dc8-d5c2-4111-b9c0-bcb88c432749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="a0_Player\3_Fighter">
+      <UniqueIdentifier>{0a4bd0ad-7281-4727-a6fe-254ffe71a067}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00_MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>01_Login</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>02_MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>a0_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>a0_Player\3_Fighter</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>a0_Player\2_Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>a0_Player\1_Warrior</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TextRPG.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00_MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>01_Login</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>02_MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>a0_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>a0_Player\3_Fighter</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>a0_Player\2_Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>a0_Player\1_Warrior</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
