@@ -2,6 +2,9 @@
 #include "Define.h"
 #include "Player.h"
 #include "Store.h"
+#include "PotionStore.h"
+#include "WeaponStore.h"
+#include "ArmorStore.h"
 
 class Storemenu {
 public:

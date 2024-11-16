@@ -22,6 +22,9 @@ void	SAFE_DELETE_ARRAY(T& Temp)
     }
 }
 
+enum ITEMTYPE { NONE, IT_WEAPON, IT_ARMOR, IT_POTION};
+enum STATE { EQUIP, UNEQUIP };
+
 
 typedef struct {
     char skillName[32];
@@ -54,8 +57,7 @@ typedef struct {
     int iHp;
     int iAttack;
     int iPrice;
+    ITEMTYPE type;
 }ItemInfo;
 
 
-enum ITEMTYPE { NONE, IT_WEAPON, IT_ARMOR, IT_POSTION };
-enum STATE { EQUIP, UNEQUIP };

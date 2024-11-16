@@ -4,17 +4,24 @@
 Store::Store()
 {
 	m_pPlayer = nullptr;
-	items.clear();
 }
 
 Store::~Store()
 {
+	Release();
+}
+
+void Store::Release()
+{
+	for_each(items.begin(), items.end(), SAFE_DELETE<Item*>);
+	items.clear();
 }
 
 void Store::Update()
 {
 	int _iInput(0);
 	while (1) {
+		system("cls");
 		Render();
 		for (size_t i = 0; i < items.size(); ++i) {
 			cout << i + 1 << ". " << items[i]->Get_ItemInfo().szName << endl;
@@ -24,7 +31,7 @@ void Store::Update()
 		cin >> _iInput;
 
 		if (1 <= _iInput && _iInput <= items.size()) {
-			//구매하는 로직
+			//dkdk
 		}
 		else if (_iInput == items.size() + 1) {
 			return;
@@ -33,6 +40,7 @@ void Store::Update()
 			cout << "잘못 입력하셨습니다" << endl;
 			continue;
 		}
+		system("pause");
 	}
 }
 

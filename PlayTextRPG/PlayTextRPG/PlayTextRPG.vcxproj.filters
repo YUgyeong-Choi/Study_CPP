@@ -58,14 +58,8 @@
     <Filter Include="8_Store">
       <UniqueIdentifier>{b19c35ab-4ae5-4e86-a4fd-a321740e4462}</UniqueIdentifier>
     </Filter>
-    <Filter Include="8_Store\AmorStore">
-      <UniqueIdentifier>{74f29741-9440-49c3-89af-e5b8be52505b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="8_Store\WeaponStore">
       <UniqueIdentifier>{73065437-5d48-4c73-ad75-033d89d80273}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="8_Store\PostionStore">
-      <UniqueIdentifier>{36222252-0b52-4f96-af08-80fa386543f4}</UniqueIdentifier>
     </Filter>
     <Filter Include="a_Player">
       <UniqueIdentifier>{8e6717db-a36c-4254-b815-cf1b0edafb43}</UniqueIdentifier>
@@ -78,6 +72,18 @@
     </Filter>
     <Filter Include="a_Player\a_Warrior">
       <UniqueIdentifier>{1af41247-ad22-4503-bf7c-90ca13a3ec86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8_Store\ArmorStore">
+      <UniqueIdentifier>{74f29741-9440-49c3-89af-e5b8be52505b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Item\WearItem">
+      <UniqueIdentifier>{1810c6e1-ad96-4e26-bb6b-d818057997e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_Item\EatItem">
+      <UniqueIdentifier>{ef57ad6b-7da1-4701-977c-d9e63d62b985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8_Store\PotionStore">
+      <UniqueIdentifier>{36222252-0b52-4f96-af08-80fa386543f4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -141,17 +147,23 @@
     <ClInclude Include="Item.h">
       <Filter>10_Item</Filter>
     </ClInclude>
-    <ClInclude Include="PostionStore.h">
-      <Filter>8_Store\PostionStore</Filter>
+    <ClInclude Include="PotionStore.h">
+      <Filter>8_Store\PotionStore</Filter>
     </ClInclude>
-    <ClInclude Include="AmorStore.h">
-      <Filter>8_Store\AmorStore</Filter>
+    <ClInclude Include="ArmorStore.h">
+      <Filter>8_Store\ArmorStore</Filter>
     </ClInclude>
     <ClInclude Include="Store.h">
       <Filter>8_Store</Filter>
     </ClInclude>
     <ClInclude Include="WeaponStore.h">
       <Filter>8_Store\WeaponStore</Filter>
+    </ClInclude>
+    <ClInclude Include="EatItem.h">
+      <Filter>10_Item\EatItem</Filter>
+    </ClInclude>
+    <ClInclude Include="WearItem.h">
+      <Filter>10_Item\WearItem</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -212,11 +224,11 @@
     <ClCompile Include="Roulette.cpp">
       <Filter>9_Minigame\Roulette</Filter>
     </ClCompile>
-    <ClCompile Include="PostionStore.cpp">
-      <Filter>8_Store\PostionStore</Filter>
+    <ClCompile Include="PotionStore.cpp">
+      <Filter>8_Store\PotionStore</Filter>
     </ClCompile>
-    <ClCompile Include="AmorStore.cpp">
-      <Filter>8_Store\AmorStore</Filter>
+    <ClCompile Include="ArmorStore.cpp">
+      <Filter>8_Store\ArmorStore</Filter>
     </ClCompile>
     <ClCompile Include="Store.cpp">
       <Filter>8_Store</Filter>
@@ -226,6 +238,12 @@
     </ClCompile>
     <ClCompile Include="WeaponStore.cpp">
       <Filter>8_Store\WeaponStore</Filter>
+    </ClCompile>
+    <ClCompile Include="EatItem.cpp">
+      <Filter>10_Item\EatItem</Filter>
+    </ClCompile>
+    <ClCompile Include="WearItem.cpp">
+      <Filter>10_Item\WearItem</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

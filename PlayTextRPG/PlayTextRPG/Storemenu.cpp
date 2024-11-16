@@ -1,19 +1,18 @@
 #include "Storemenu.h"
-#include "PostionStore.h"
-#include "WeaponStore.h"
-#include "AmorStore.h"
 #include "pch.h"
 #include "Color.h"
 
 Storemenu::Storemenu()
 {
     m_pPlayer = nullptr;
+    m_pStore = nullptr;
 }
 
 void Storemenu::Update()
 {
     int _iInput(0);
     while (1) {
+        system("cls");
         setColor(YELLOW);
         cout << "============== 상점 ===============" << endl; setColor(GRAY); 
         cout << "1. 포션 상점" << endl;
@@ -22,19 +21,20 @@ void Storemenu::Update()
         cout << "4. 판매 상점" << endl;
         setColor(YELLOW);
         cout << "====================================" << endl; setColor(GRAY);
-        cout << "4. 뒤로 가기" << endl;
+        cout << "5. 뒤로 가기" << endl;
 
         cin >> _iInput;
         switch (_iInput)
         {
         case 1:
-            m_pStore = new PostionStore;
+            m_pStore = new PotionStore;
+
             break;
         case 2:
             m_pStore = new WeaponStore;
             break;
         case 3:
-            m_pStore = new AmorStore;
+            m_pStore = new ArmorStore;
             break;
         case 4:
             //판매 상점
@@ -50,6 +50,9 @@ void Storemenu::Update()
             m_pStore->Set_PlayerInfo(m_pPlayer);
             m_pStore->Update();
         }
+
+        SAFE_DELETE(m_pStore);
+        system("pause");
     }
 
 

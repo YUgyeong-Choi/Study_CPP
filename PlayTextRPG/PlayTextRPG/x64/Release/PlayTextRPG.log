@@ -1,8 +1,20 @@
-﻿  PostionStore.cpp
+﻿  ArmorStore.cpp
+  Login.cpp
+  MainGame.cpp
+  Mainmenu.cpp
+  PostionStore.cpp
+  Roulette.cpp
+C:\Users\yugyeong\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Roulette.cpp(117,16): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yugyeong\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Roulette.cpp(122,16): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yugyeong\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Roulette.cpp(201,20): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yugyeong\Desktop\Study_CPP\PlayTextRPG\PlayTextRPG\Roulette.cpp(206,20): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Store.cpp
+  Storemenu.cpp
+  TextRpg.cpp
+  WeaponStore.cpp
   코드를 생성하고 있습니다.
-  4 of 354 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+  24 of 359 functions ( 6.7%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
   PlayTextRPG.vcxproj -> C:\Users\yugyeong\Desktop\Study_CPP\PlayTextRPG\x64\Release\PlayTextRPG.exe

@@ -9,6 +9,7 @@ Login::Login()
 {
 	m_pPlayer = nullptr;
 	m_pMainmenu = nullptr;
+	m_pInven = nullptr;
 }
 
 Login::~Login()
@@ -69,6 +70,7 @@ void Login::Release()
 {
 	SAFE_DELETE(m_pPlayer);
 	SAFE_DELETE(m_pMainmenu);
+	SAFE_DELETE(m_pInven);
 }
 
 bool Login::Select_Job()

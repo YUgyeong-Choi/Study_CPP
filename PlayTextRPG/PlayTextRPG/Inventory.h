@@ -1,13 +1,16 @@
 #pragma once
-#include "Define.h"
+#include "Item.h"
+
 class Inventory {
 public:
 	Inventory();
+	~Inventory();
 public:
+	void BuyItem();
 	void Render();
-	ItemInfo* Get_InventoryInfo() { return items; }
-	void Fight_Render();
-	void Add_Items(int _index);
+	//아이템 사용
+	//보유 아이템 Render
 private:
-	ItemInfo items[6];
+	map<char[32], Item*> ItemsInfo;
+	map<char[32], int> ItemCount;
 };

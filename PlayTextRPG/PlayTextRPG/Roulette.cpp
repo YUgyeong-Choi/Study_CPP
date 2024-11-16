@@ -97,7 +97,7 @@ void Roulette::Update() {
 void Roulette::Render(int i)
 {
     size_t spinCount = rouletteNumbers.size();
-    int half = spinCount / 2;
+    size_t half = spinCount / 2;
     for (int j = 0; j < half; j++) {
         cout << rouletteNumbers[j] << '\t';
     }
@@ -175,7 +175,7 @@ int Roulette::spinAndDisplay() {
     uniform_int_distribution<> dist(410, 500);
     int maxDelay = dist(gen);  // 410에서 500 사이의 랜덤 값으로 maxDelay 설정
     size_t spinCount = rouletteNumbers.size();
-    int half = spinCount / 2;
+    size_t half = spinCount / 2;
 
     int i = 0;  // 회전 인덱스 초기화
     while (delay < maxDelay) { 
@@ -198,12 +198,12 @@ int Roulette::spinAndDisplay() {
         cout << endl;
 
         // 두 번째 절반 출력
-        for (int j = half; j < spinCount; j++) {
+        for (size_t j = half; j < spinCount; j++) {
             cout << rouletteNumbers[j] << '\t';
         }
         cout << endl;
 
-        for (int j = half; j < spinCount; j++) {
+        for (size_t j = half; j < spinCount; j++) {
             if (j == i) {
                 cout << "!";  // 화살표 느낌을 주는 '!' 출력
             }

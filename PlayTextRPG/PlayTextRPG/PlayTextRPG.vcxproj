@@ -127,10 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="AmorStore.h" />
+    <ClInclude Include="ArmorStore.h" />
     <ClInclude Include="Color.h" />
     <ClInclude Include="Define.h" />
     <ClInclude Include="Dungeon.h" />
+    <ClInclude Include="EatItem.h" />
     <ClInclude Include="Field.h" />
     <ClInclude Include="Fighter.h" />
     <ClInclude Include="HighDungeon.h" />
@@ -145,17 +146,19 @@
     <ClInclude Include="Monster.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="PostionStore.h" />
+    <ClInclude Include="PotionStore.h" />
     <ClInclude Include="Roulette.h" />
     <ClInclude Include="Store.h" />
     <ClInclude Include="Storemenu.h" />
     <ClInclude Include="Warrior.h" />
     <ClInclude Include="WeaponStore.h" />
+    <ClInclude Include="WearItem.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AmorStore.cpp" />
+    <ClCompile Include="ArmorStore.cpp" />
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="Dungeon.cpp" />
+    <ClCompile Include="EatItem.cpp" />
     <ClCompile Include="Field.cpp" />
     <ClCompile Include="Fighter.cpp" />
     <ClCompile Include="HighDungeon.cpp" />
@@ -170,7 +173,7 @@
     <ClCompile Include="Minigame.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="PostionStore.cpp" />
+    <ClCompile Include="PotionStore.cpp" />
     <ClCompile Include="Roulette.cpp" />
     <ClCompile Include="Store.cpp" />
     <ClCompile Include="Storemenu.cpp" />
@@ -180,6 +183,7 @@
     </ClCompile>
     <ClCompile Include="Warrior.cpp" />
     <ClCompile Include="WeaponStore.cpp" />
+    <ClCompile Include="WearItem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Minigame.h" />
