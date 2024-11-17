@@ -22,6 +22,14 @@ void Player::Set_Player_Name(const string& _StrName)
 	m_PlayerInfo.strName = _StrName;
 }
 
+void Player::Render()
+{
+	cout << "====================================" << endl;
+	cout << m_PlayerInfo.strName << endl;
+	cout << "Hp: " << m_PlayerInfo.iHp << endl;
+	cout << "Attack Damage: " << m_PlayerInfo.iAttack << endl;
+}
+
 void Player::Init_Inven()
 {
 	m_Inven = new Inventory;
@@ -32,19 +40,24 @@ void Player::Release()
 	SAFE_DELETE(m_Inven);
 }
 
-void Player::usePotion(Potion* potion)
+void Player::usePotion(int healAmount)
 {
-	m_PlayerInfo.iHp += potion->healAmount;
+	m_PlayerInfo.iHp += healAmount;
 	if (m_PlayerInfo.iHp > iMaxHp) {
 		m_PlayerInfo.iHp = iMaxHp;
 	}
 
-	potion->use();
 }
 
 void Player::equip(Item* equipItem)
 {
 	if (Weapon* weapon = dynamic_cast<Weapon*>(equipItem)) {
+		if (WeaponItem != nullptr && WeaponItem->Get_ItemName() == weapon->Get_ItemName()) {
+			cout << "ÀÌ¹Ì Âø¿ë Áß,,," << endl;
+			system("pause");
+			return;
+		}
+	
 		if (WeaponItem) unequip("weapon");
 
 		WeaponItem = weapon;
@@ -52,10 +65,18 @@ void Player::equip(Item* equipItem)
 		WeaponItem->use();
 	}
 	else if (Armor* armor = dynamic_cast<Armor*>(equipItem)) {
+		if(ArmorItem != nullptr && ArmorItem->Get_ItemName() == armor->Get_ItemName()){
+			cout << "ÀÌ¹Ì Âø¿ë Áß,,," << endl;
+			system("pause");
+			return ;
+		}
+
+
 		if (ArmorItem) unequip("armor");
 
 		ArmorItem = armor;
-		m_PlayerInfo.iDefend += armor->Get_DefenseBoost();
+		m_PlayerInfo.iHp += armor->Get_DefenseBoost();
+		iMaxHp += armor->Get_DefenseBoost();
 		ArmorItem->use();
 	}
 

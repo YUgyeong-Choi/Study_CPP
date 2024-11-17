@@ -1,11 +1,12 @@
 #include "MainMenu.h"
 
-MainMenu::MainMenu():m_pPlayer(nullptr), shopMenu(nullptr), invenMenu(nullptr)
+MainMenu::MainMenu():m_pPlayer(nullptr), field(nullptr), shopMenu(nullptr), invenMenu(nullptr)
 {
 }
 
 MainMenu::~MainMenu()
 {
+	Release();
 }
 
 void MainMenu::Update()
@@ -26,6 +27,10 @@ void MainMenu::Update()
 		switch (_iInput)
 		{
 		case 1:
+			field = new Field;
+			field->Set_PlayerInfo(m_pPlayer);
+			field->Update();
+			SAFE_DELETE(field);
 			break;
 		case 2:
 			shopMenu = new ShopMenu;
@@ -54,5 +59,7 @@ void MainMenu::Update()
 
 void MainMenu::Release()
 {
+	SAFE_DELETE(field);
 	SAFE_DELETE(shopMenu);
+	SAFE_DELETE(invenMenu);
 }

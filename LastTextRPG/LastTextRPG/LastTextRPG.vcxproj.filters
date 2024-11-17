@@ -76,6 +76,15 @@
     <Filter Include="09_Item\Weapon">
       <UniqueIdentifier>{a68c57d8-d739-4bb6-95c3-a72795d484c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="04_Dungeon\2_MidDungeon">
+      <UniqueIdentifier>{16191bc8-8d7b-4332-9374-a8f48074ea3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Dungeon\1_LowDungeon">
+      <UniqueIdentifier>{12f0f1f6-2d68-4da2-829c-002d83517c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Dungeon\3.HighDungeon">
+      <UniqueIdentifier>{2cdfc7d1-0d89-44d3-8541-55fd0aebf9bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -134,6 +143,24 @@
     </ClInclude>
     <ClInclude Include="InvenMenu.h">
       <Filter>07_InventoryMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>03_Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>04_Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="LowDungeon.h">
+      <Filter>04_Dungeon\1_LowDungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="MidDungeon.h">
+      <Filter>04_Dungeon\2_MidDungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="HighDungeon.h">
+      <Filter>04_Dungeon\3.HighDungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>b0_Monster</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -196,6 +223,24 @@
     </ClCompile>
     <ClCompile Include="InvenMenu.cpp">
       <Filter>07_InventoryMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>03_Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>04_Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="LowDungeon.cpp">
+      <Filter>04_Dungeon\1_LowDungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="MidDungeon.cpp">
+      <Filter>04_Dungeon\2_MidDungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="HighDungeon.cpp">
+      <Filter>04_Dungeon\3.HighDungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>b0_Monster</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

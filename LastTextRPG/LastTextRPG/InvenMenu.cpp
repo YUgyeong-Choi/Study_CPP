@@ -17,11 +17,11 @@ void InvenMenu::Update()
 			m_pPlayer->Get_InvenInfo()->Render("potion");
 			break;
 		case 2:
-			m_pPlayer->Get_InvenInfo()->Render("weapon");
 			if (m_pPlayer->Get_InvenInfo()->WeaponSize() != 0) {
 				int _iInput2(0);
 				while (1) {
 					system("cls");
+					m_pPlayer->Get_InvenInfo()->Render("weapon");
 					Item* item = nullptr;
 					cout << "1.ÀåÂø 2.ÀåÂø ÇØÁ¦ 3.³ª°¡±â" << endl;
 					cin >> _iInput2;

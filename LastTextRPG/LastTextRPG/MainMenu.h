@@ -1,5 +1,6 @@
 #pragma once
 #include "Player.h"
+#include "Field.h"
 #include "ShopMenu.h"
 #include "InvenMenu.h"
 
@@ -13,6 +14,7 @@ public:
 	void Set_PlayerInfo(Player* _pPlayer) { m_pPlayer = _pPlayer; }
 private:
 	Player* m_pPlayer;
+	Field* field;
 	ShopMenu* shopMenu;
 	InvenMenu* invenMenu;
 };

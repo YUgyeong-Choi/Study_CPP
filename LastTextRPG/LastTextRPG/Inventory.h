@@ -10,6 +10,7 @@ public:
 	Item* SelectEuip(string type);
 	size_t WeaponSize() { return invenWeapon.size(); }
 	size_t ArmorSize() { return invenArmor.size(); }
+	int FightInventory();
 private:
 	unordered_map<string, Item*> invenPotion;
 	unordered_map<string, int> invenPotionCount;

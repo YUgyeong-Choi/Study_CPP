@@ -1,6 +1,6 @@
 #include "Shop.h"
 
-Shop::Shop()
+Shop::Shop():m_pPlayer(nullptr)
 {
 }
 
@@ -24,6 +24,8 @@ void Shop::Update()
 			cout << i + 1 << "." << shopItems[i]->Get_ItemName() << endl;
 		}
 		cout << shopItems.size() + 1 << ".뒤로 가기" << endl;
+
+		cout << "보유액: " << m_pPlayer->Get_PlayerInfo().iMoney << endl << endl;
 
 		int _iInput(0);
 		cin >> _iInput;

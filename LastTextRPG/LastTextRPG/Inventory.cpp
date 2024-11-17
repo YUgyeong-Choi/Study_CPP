@@ -163,3 +163,52 @@ Item* Inventory::SelectEuip(string type)
 	}
 
 }
+
+int Inventory::FightInventory()
+{
+	vector<Item*> potionItems;
+	int size(0);
+	while (1) {
+		cout << "============ 물약 ============" << endl;
+		for (const auto& pair : invenPotion) {
+			cout << size + 1 << "번째 아이템" << endl;
+			cout << "이름:" << pair.first << "\t보유 개수: " << invenPotionCount[pair.first] << endl;
+			potionItems.push_back(pair.second);
+			size++;
+			
+		}
+		if (size == 0) {
+			cout << "비어 있습니다" << endl;
+			system("pause");
+			return 0;
+		}
+
+		size = 0;
+		for (const auto& item : potionItems) {
+			cout << size + 1 << ". "  << item->Get_ItemName() << endl;
+			size++;
+		}
+		cout << size + 1 << ". 뒤로 가기" << endl;
+
+
+
+		int _iInput(0);
+		cin >> _iInput;
+		if (1 <= _iInput && size >= _iInput) {
+			if (Potion* potion = dynamic_cast<Potion*>(potionItems[_iInput - 1])) {
+				potion->use();
+				invenPotionCount[potion->Get_ItemName()]--;
+				if (invenPotionCount[potion->Get_ItemName()] == 0) {
+					invenPotion.erase(potion->Get_ItemName());
+				}
+				return potion->Get_healAmount();
+			}
+		}
+		else if (_iInput == size + 1) {
+			return 0;
+		}
+		else {
+			continue;
+		}
+	}
+}

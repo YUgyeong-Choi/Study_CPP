@@ -26,9 +26,10 @@ Mage::~Mage()
 
 void Mage::Skill1()
 {
+	m_PlayerInfo.iAttack += 10;
 }
 
 int Mage::Skill2()
 {
-	return 0;
+	return m_PlayerInfo.iAttack*2;
 }

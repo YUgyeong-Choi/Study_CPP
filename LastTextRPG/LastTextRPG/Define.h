@@ -41,3 +41,10 @@ typedef struct {
     int Stage;
     SkillInfo skills[2];
 } PlayerInfo;
+
+typedef struct {
+    string strName;
+    int iHp;
+    int iAttack;
+    int iMoney;
+} MonsterInfo;
