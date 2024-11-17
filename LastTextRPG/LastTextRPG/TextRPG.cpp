@@ -1,8 +1,8 @@
 #include "MainGame.h"
 
 int main() {
-	MainGame* mainGame = new MainGame;
-	mainGame->Update();
+	MainGame mainGame;
+	mainGame.Update();
 
 	return 0;
 }

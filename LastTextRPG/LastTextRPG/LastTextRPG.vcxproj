@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClInclude Include="Armor.h" />
     <ClInclude Include="ArmorShop.h" />
-    <ClInclude Include="Equipment.h" />
     <ClInclude Include="Fighter.h" />
     <ClInclude Include="InvenMenu.h" />
     <ClInclude Include="Inventory.h" />
@@ -152,7 +151,6 @@
     <ClCompile Include="Armor.cpp" />
     <ClCompile Include="ArmorShop.cpp" />
     <ClCompile Include="Define.h" />
-    <ClCompile Include="Equipment.cpp" />
     <ClCompile Include="Fighter.cpp" />
     <ClCompile Include="InvenMenu.cpp" />
     <ClCompile Include="Inventory.cpp" />

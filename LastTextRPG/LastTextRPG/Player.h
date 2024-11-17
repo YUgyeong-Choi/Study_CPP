@@ -22,8 +22,8 @@ public:
 	// 인벤토리 아이템 관련
 	Inventory* Get_InvenInfo() { return m_Inven; } //인벤토리 깊은 복사
 	void usePotion(Potion* potion);
-	void equip(Equipment* equipItem);
-	void unequip();
+	void equip(Item* equipItem);
+	void unequip(string type);
 protected:
 	PlayerInfo m_PlayerInfo;
 	Inventory* m_Inven;

@@ -64,20 +64,17 @@
     <Filter Include="09_Item">
       <UniqueIdentifier>{16a1dc22-15f4-4373-a422-f49054c0fcf9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="09_Item\1_Equipment">
-      <UniqueIdentifier>{6fe7d1f2-4d52-4405-8fb3-654ce2b82296}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="09_Item\1_Equipment\Armor">
-      <UniqueIdentifier>{2fce1bfa-7517-4446-a0f1-e7119a2a65a9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="09_Item\1_Equipment\Weapon">
-      <UniqueIdentifier>{a68c57d8-d739-4bb6-95c3-a72795d484c8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="09_Item\2_Potion">
       <UniqueIdentifier>{654ff326-abe9-4e82-9f48-8e54fd9dcb39}</UniqueIdentifier>
     </Filter>
     <Filter Include="08_Inventory">
       <UniqueIdentifier>{cef60a9a-c755-4e0a-b390-64bca552644a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Item\Armor">
+      <UniqueIdentifier>{2fce1bfa-7517-4446-a0f1-e7119a2a65a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Item\Weapon">
+      <UniqueIdentifier>{a68c57d8-d739-4bb6-95c3-a72795d484c8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -114,14 +111,11 @@
     <ClInclude Include="Inventory.h">
       <Filter>08_Inventory</Filter>
     </ClInclude>
-    <ClInclude Include="Equipment.h">
-      <Filter>09_Item\1_Equipment</Filter>
-    </ClInclude>
     <ClInclude Include="Armor.h">
-      <Filter>09_Item\1_Equipment\Armor</Filter>
+      <Filter>09_Item\Armor</Filter>
     </ClInclude>
     <ClInclude Include="Weapon.h">
-      <Filter>09_Item\1_Equipment\Weapon</Filter>
+      <Filter>09_Item\Weapon</Filter>
     </ClInclude>
     <ClInclude Include="ShopMenu.h">
       <Filter>05_ShopMenu</Filter>
@@ -179,14 +173,11 @@
     <ClCompile Include="Inventory.cpp">
       <Filter>08_Inventory</Filter>
     </ClCompile>
-    <ClCompile Include="Equipment.cpp">
-      <Filter>09_Item\1_Equipment</Filter>
-    </ClCompile>
     <ClCompile Include="Armor.cpp">
-      <Filter>09_Item\1_Equipment\Armor</Filter>
+      <Filter>09_Item\Armor</Filter>
     </ClCompile>
     <ClCompile Include="Weapon.cpp">
-      <Filter>09_Item\1_Equipment\Weapon</Filter>
+      <Filter>09_Item\Weapon</Filter>
     </ClCompile>
     <ClCompile Include="ShopMenu.cpp">
       <Filter>05_ShopMenu</Filter>

@@ -1,8 +1,10 @@
 #pragma once
-#include "Equipment.h"
-class Armor :public Equipment {
+#include "Item.h"
+class Armor :public Item {
 public:
-	Armor(const string& _strName, int _iPrice, int _defenseBoost) :Equipment(_strName, _iPrice, _defenseBoost) {}
-
+	Armor(const string& _strName, int _iPrice, int _defenseBoost) :Item(_strName, _iPrice), iDefenseBoost(_defenseBoost) {}
+	int Get_DefenseBoost() { return iDefenseBoost; }
 	virtual void use();
+private:
+	int iDefenseBoost;
 };

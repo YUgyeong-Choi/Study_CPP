@@ -1,5 +1,4 @@
 #include "ArmorShop.h"
-#include "Equipment.h"
 #include "Armor.h"
 
 ArmorShop::ArmorShop()

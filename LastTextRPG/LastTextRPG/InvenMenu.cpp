@@ -14,16 +14,64 @@ void InvenMenu::Update()
 		switch (_iInput)
 		{
 		case 1:
-			m_pPlayer->Get_InvenInfo()->RenderPotion();
+			m_pPlayer->Get_InvenInfo()->Render("potion");
 			break;
 		case 2:
-			if (m_pPlayer->Get_InvenInfo()->RenderWeapon() != 0){
-				SelectEquip("weapon");
+			m_pPlayer->Get_InvenInfo()->Render("weapon");
+			if (m_pPlayer->Get_InvenInfo()->WeaponSize() != 0) {
+				int _iInput2(0);
+				while (1) {
+					system("cls");
+					Item* item = nullptr;
+					cout << "1.ÀåÂø 2.ÀåÂø ÇØÁ¦ 3.³ª°¡±â" << endl;
+					cin >> _iInput2;
+					switch (_iInput2)
+					{
+					case 1:
+						item  = m_pPlayer->Get_InvenInfo()->SelectEuip("weapon");
+						if (item != nullptr) {
+							m_pPlayer->equip(item);
+						}
+						break;
+					case 2:
+						m_pPlayer->unequip("weapon");
+						break;
+					case 3:
+						return;
+					default:
+						cout << "Àß¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù" << endl;
+						continue;
+					}
+				}
 			}
 			break;
 		case 3:
-			if (m_pPlayer->Get_InvenInfo()->RenderArmor() != 0) {
-				SelectEquip("armor");
+			m_pPlayer->Get_InvenInfo()->Render("armor");
+			if (m_pPlayer->Get_InvenInfo()->ArmorSize() != 0) {
+				int _iInput2(0);
+				while (1) {
+					system("cls");
+					Item* item = nullptr;
+					cout << "1.ÀåÂø 2.ÀåÂø ÇØÁ¦ 3.³ª°¡±â" << endl;
+					cin >> _iInput2;
+					switch (_iInput2)
+					{
+					case 1:
+						item = m_pPlayer->Get_InvenInfo()->SelectEuip("armor");
+						if (item != nullptr) {
+							m_pPlayer->equip(item);
+						}
+						break;
+					case 2:
+						m_pPlayer->unequip("armor");
+						break;
+					case 3:
+						return;
+					default:
+						cout << "Àß¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù" << endl;
+						continue;
+					}
+				}
 			}
 			break;
 		case 4:
@@ -33,28 +81,5 @@ void InvenMenu::Update()
 			continue;
 		}
 		system("pause");
-	}
-}
-
-void InvenMenu::SelectEquip(string type)
-{
-	while (1) {
-		int _iInput(0);
-		cout << "1.ÀåÂø 2.Å»Âø 3.³ª°¡±â" << endl;
-		cin >> _iInput;
-		switch (_iInput)
-		{
-		case 1:
-			m_pPlayer->Get_InvenInfo()->EquipItem(type);
-			break;
-		case 2:
-			m_pPlayer->Get_InvenInfo()->EquipItem(type);
-			break;
-		case 3:
-			return;
-		default:
-			cout << "Àß¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù" << endl;
-			continue;
-		}
 	}
 }
