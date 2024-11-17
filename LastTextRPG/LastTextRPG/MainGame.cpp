@@ -19,7 +19,7 @@ void MainGame::Update()
 	cout << "1.보스던전" << endl;
 	cout << "2.저장 불러오기" << endl;
 	cout << "아무 버튼이나 눌러주세요" << endl;
-	cin.get();
+	system("pause");
 
 	m_pLogin = new Login;
 	m_pLogin->Update();

@@ -23,6 +23,7 @@ void Login::Release()
 void Login::Update()
 {
 	while (1) {
+		system("cls");
 		bool bIsSelect = false;
 		if (m_pPlayer) SAFE_DELETE(m_pPlayer);
 		if (m_pMenu) SAFE_DELETE(m_pMenu);
@@ -65,12 +66,14 @@ void Login::Update()
 			m_pMenu->Set_PlayerInfo(m_pPlayer);
 			m_pMenu->Update();
 		}
+		system("pause");
 	}
 }
 
 bool Login::Select_Job()
 {
 	while (1) {
+		system("cls");
 		int _iInput(0);
 		cout << "============= 직업 선택 ============" << endl; 
 		cout << "1. 전사" << endl;
@@ -85,14 +88,17 @@ bool Login::Select_Job()
 		case WARRIOR:
 			m_pPlayer = new Warrior;
 			Create_Name();
+			m_pPlayer->Init_Inven();
 			return true;
 		case MAGE:
 			m_pPlayer = new Mage;
 			Create_Name();
+			m_pPlayer->Init_Inven();
 			return true;
 		case FIGHTER:
 			m_pPlayer = new Fighter;
 			Create_Name();
+			m_pPlayer->Init_Inven();
 			return true;
 		case 4:
 			return false;
@@ -100,25 +106,27 @@ bool Login::Select_Job()
 			cout << "잘못 입력하셨습니다" << endl;
 			continue;
 		}
+
+		system("pause");
 	}
 }
 
 void Login::Create_Name() {
-	char _szName[32];
+	string _strName;
 
 	while (true) {
-		cout << m_pPlayer->Get_PlayerInfo().job;
-		cout << "을 선택하셨습니다 !" << endl;
+		system("cls");
 		cout << "사용할 닉네임을 작성해주세요 " << endl;
-		cin >> _szName;
+		cin >> _strName;
 
-		if (strlen(_szName) > 0) {
-			m_pPlayer->Set_Player_Name(_szName);
+		if (_strName.length() > 0) {
+			m_pPlayer->Set_Player_Name(_strName);
 			break;
 		}
 		else {
 			cout << "다시 닉네임을 입력하세요" << endl;
 		}
+		system("pause");
 	}
 }
 

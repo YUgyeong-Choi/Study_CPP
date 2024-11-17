@@ -127,25 +127,49 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Armor.h" />
+    <ClInclude Include="ArmorShop.h" />
+    <ClInclude Include="Equipment.h" />
     <ClInclude Include="Fighter.h" />
+    <ClInclude Include="InvenMenu.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Login.h" />
     <ClInclude Include="Mage.h" />
     <ClInclude Include="MainGame.h" />
     <ClInclude Include="MainMenu.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Potion.h" />
+    <ClInclude Include="PotionShop.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="ShopMenu.h" />
     <ClInclude Include="Warrior.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WeaponShop.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Armor.cpp" />
+    <ClCompile Include="ArmorShop.cpp" />
     <ClCompile Include="Define.h" />
+    <ClCompile Include="Equipment.cpp" />
     <ClCompile Include="Fighter.cpp" />
+    <ClCompile Include="InvenMenu.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="Mage.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Potion.cpp" />
+    <ClCompile Include="PotionShop.cpp" />
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="ShopMenu.cpp" />
     <ClCompile Include="TextRPG.cpp" />
     <ClCompile Include="Warrior.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="WeaponShop.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

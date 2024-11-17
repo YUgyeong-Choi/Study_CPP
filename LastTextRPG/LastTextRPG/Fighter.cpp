@@ -16,6 +16,8 @@ Fighter::Fighter()
 	strcpy_s(m_PlayerInfo.skills[1].skillName, sizeof(m_PlayerInfo.skills[1].skillName), "회피");
 	strcpy_s(m_PlayerInfo.skills[1].skillInfo, sizeof(m_PlayerInfo.skills[1].skillInfo), "2턴간 몬스터의 공격을 회피한다");
 	m_PlayerInfo.skills[1].cool = 2;
+
+	iMaxHp = m_PlayerInfo.iHp;
 }
 
 Fighter::~Fighter()

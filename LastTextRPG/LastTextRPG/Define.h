@@ -1,4 +1,5 @@
 #pragma once
+#include "pch.h"
 #define PURE = 0
 
 template<typename T>
@@ -31,7 +32,7 @@ typedef struct {
 
 
 typedef struct {
-    char szName[32];
+    string strName;
     JOB job;
     int iHp;
     int iAttack;

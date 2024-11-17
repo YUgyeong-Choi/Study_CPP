@@ -16,6 +16,8 @@ Mage::Mage()
 	strcpy_s(m_PlayerInfo.skills[1].skillName, sizeof(m_PlayerInfo.skills[1].skillName), "최후의 일격");
 	strcpy_s(m_PlayerInfo.skills[1].skillInfo, sizeof(m_PlayerInfo.skills[1].skillInfo), "다음 공격이 강력한 일격으로 적에게 2배 강한 피해를 줌");
 	m_PlayerInfo.skills[1].cool = 5;
+
+	iMaxHp = m_PlayerInfo.iHp;
 }
 
 Mage::~Mage()

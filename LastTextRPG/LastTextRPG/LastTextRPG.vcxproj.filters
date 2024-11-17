@@ -40,18 +40,6 @@
     <Filter Include="06_Shop">
       <UniqueIdentifier>{3e4f7acf-845f-4158-b5e6-26b2e6e03079}</UniqueIdentifier>
     </Filter>
-    <Filter Include="07_Inventory">
-      <UniqueIdentifier>{cef60a9a-c755-4e0a-b390-64bca552644a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="08_Item">
-      <UniqueIdentifier>{16a1dc22-15f4-4373-a422-f49054c0fcf9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="08_Item\1_Equipment">
-      <UniqueIdentifier>{6fe7d1f2-4d52-4405-8fb3-654ce2b82296}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="08_Item\2_Potion">
-      <UniqueIdentifier>{654ff326-abe9-4e82-9f48-8e54fd9dcb39}</UniqueIdentifier>
-    </Filter>
     <Filter Include="a0_Player\1_Warrior">
       <UniqueIdentifier>{c48a06cc-efdf-4047-b4d5-7711305479a6}</UniqueIdentifier>
     </Filter>
@@ -60,6 +48,36 @@
     </Filter>
     <Filter Include="a0_Player\3_Fighter">
       <UniqueIdentifier>{0a4bd0ad-7281-4727-a6fe-254ffe71a067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Shop\PotionShop">
+      <UniqueIdentifier>{bfcf08de-e0e5-4e55-b410-719420792675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Shop\WeaponShop">
+      <UniqueIdentifier>{9343a962-508f-40f2-97d8-937a463937dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Shop\ArmorShop">
+      <UniqueIdentifier>{e0c5748f-3356-488f-aba2-d89a3e73d91a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_InventoryMenu">
+      <UniqueIdentifier>{cb8a5456-d8f7-4a5b-8087-808e3a3902c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Item">
+      <UniqueIdentifier>{16a1dc22-15f4-4373-a422-f49054c0fcf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Item\1_Equipment">
+      <UniqueIdentifier>{6fe7d1f2-4d52-4405-8fb3-654ce2b82296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Item\1_Equipment\Armor">
+      <UniqueIdentifier>{2fce1bfa-7517-4446-a0f1-e7119a2a65a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Item\1_Equipment\Weapon">
+      <UniqueIdentifier>{a68c57d8-d739-4bb6-95c3-a72795d484c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Item\2_Potion">
+      <UniqueIdentifier>{654ff326-abe9-4e82-9f48-8e54fd9dcb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Inventory">
+      <UniqueIdentifier>{cef60a9a-c755-4e0a-b390-64bca552644a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +104,42 @@
     </ClInclude>
     <ClInclude Include="Warrior.h">
       <Filter>a0_Player\1_Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>09_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>09_Item\2_Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>08_Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>09_Item\1_Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>09_Item\1_Equipment\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>09_Item\1_Equipment\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopMenu.h">
+      <Filter>05_ShopMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>06_Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorShop.h">
+      <Filter>06_Shop\ArmorShop</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponShop.h">
+      <Filter>06_Shop\WeaponShop</Filter>
+    </ClInclude>
+    <ClInclude Include="PotionShop.h">
+      <Filter>06_Shop\PotionShop</Filter>
+    </ClInclude>
+    <ClInclude Include="InvenMenu.h">
+      <Filter>07_InventoryMenu</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +169,42 @@
     </ClCompile>
     <ClCompile Include="Warrior.cpp">
       <Filter>a0_Player\1_Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>09_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>09_Item\2_Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>08_Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>09_Item\1_Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>09_Item\1_Equipment\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>09_Item\1_Equipment\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopMenu.cpp">
+      <Filter>05_ShopMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>06_Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmorShop.cpp">
+      <Filter>06_Shop\ArmorShop</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponShop.cpp">
+      <Filter>06_Shop\WeaponShop</Filter>
+    </ClCompile>
+    <ClCompile Include="PotionShop.cpp">
+      <Filter>06_Shop\PotionShop</Filter>
+    </ClCompile>
+    <ClCompile Include="InvenMenu.cpp">
+      <Filter>07_InventoryMenu</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
