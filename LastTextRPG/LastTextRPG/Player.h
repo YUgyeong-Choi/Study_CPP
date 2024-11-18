@@ -11,6 +11,7 @@ public:
 public:
 	void Set_Player_Name(const string& _StrName); //플레이어 이름 설정
 	void Render();
+	void RenderDetail();
 	void Release(); 
 	
 	PlayerInfo Get_PlayerInfo() { return m_PlayerInfo; } //플레이어 정보 리턴

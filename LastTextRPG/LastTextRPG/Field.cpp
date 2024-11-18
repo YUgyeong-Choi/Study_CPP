@@ -17,6 +17,7 @@ void Field::Update() {
 
     while (true) {
         system("cls");
+        cout << m_pPlayer->Get_PlayerInfo().Stage << "단계" << endl;
         cout << "============= 던전 선택 ============" << endl; 
         cout << "1. 어두운 숲의 동굴 (Level.1)" << endl;
         cout << "2. 버려진 성 (Level.2)" << endl;
@@ -35,7 +36,7 @@ void Field::Update() {
         };
 
         for (int i = 0; i < 3; ++i) {
-            if (m_pPlayer->Get_PlayerInfo().Stage > bossOptions[i].stageRequirement) {
+            if (m_pPlayer->Get_PlayerInfo().Stage > i) {
                 cout << (i + 4) << ". " << bossOptions[i].entryText << endl;
             }
             else {

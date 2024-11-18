@@ -46,6 +46,7 @@ void InvenMenu::Update()
 			}
 			break;
 		case 3:
+			system("cls");
 			m_pPlayer->Get_InvenInfo()->Render("armor");
 			if (m_pPlayer->Get_InvenInfo()->ArmorSize() != 0) {
 				int _iInput2(0);

@@ -193,6 +193,7 @@ bool Dungeon::Fight() {
             }
             else {
                 cout << "ÄðÅ¸ÀÓ ÀÔ´Ï´Ù" << endl;
+                continue;
             }
             break;
         case 3:
@@ -204,13 +205,14 @@ bool Dungeon::Fight() {
             }
             else {
                 cout << "ÄðÅ¸ÀÓ ÀÔ´Ï´Ù" << endl;
+                continue;
             }
             break;
         case 4:
             m_pPlayer->usePotion(m_pPlayer->Get_InvenInfo()->FightInventory());
             continue;
         case 5:
-            //_pPlayer->Set_InitAttack();
+            m_pPlayer->Set_InitAttack(originAttack);
             cout << "µµ¸Á °©´Ï´Ù" << endl;
             return false;
         default:

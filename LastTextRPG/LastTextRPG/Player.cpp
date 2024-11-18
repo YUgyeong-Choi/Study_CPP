@@ -4,7 +4,6 @@
 Player::Player()
 {
 	m_PlayerInfo.strName = "";
-	m_PlayerInfo.iDefend = 0;
 	m_PlayerInfo.iMoney = 3000;
 	m_PlayerInfo.Stage = 0;
 	m_Inven = nullptr;
@@ -28,6 +27,32 @@ void Player::Render()
 	cout << m_PlayerInfo.strName << endl;
 	cout << "Hp: " << m_PlayerInfo.iHp << endl;
 	cout << "Attack Damage: " << m_PlayerInfo.iAttack << endl;
+}
+
+void Player::RenderDetail()
+{
+	cout << "===============================" << endl;
+	cout << "이름: " << m_PlayerInfo.strName;
+	if (m_PlayerInfo.job == WARRIOR) cout << "\t직업: 전사" << endl;
+	else if (m_PlayerInfo.job == MAGE) cout << "\t직업: 마법사" << endl;
+	else if (m_PlayerInfo.job == FIGHTER) cout << "\t직업: 격투가" << endl;
+	if (ArmorItem != nullptr) {
+		cout << "HP: " << m_PlayerInfo.iHp - ArmorItem->Get_DefenseBoost() << "\tArmor: " << ArmorItem->Get_DefenseBoost() << endl;
+	}
+	else {
+		cout << "HP: " << m_PlayerInfo.iHp<< "\tArmor: 0"  << endl;
+	}
+
+	if (WeaponItem != nullptr) {
+		cout << "HP: " << m_PlayerInfo.iHp - WeaponItem->Get_AttackBoost() << "\Weapon: " << WeaponItem->Get_AttackBoost() << endl;
+	}
+	else {
+		cout << "Attack: " << m_PlayerInfo.iAttack  << "\tWeapon: 0" << endl;
+	}
+
+
+	
+	
 }
 
 void Player::Init_Inven()
@@ -98,7 +123,7 @@ void Player::unequip(string type)
 
 	if (type == "armor") {
 		if (ArmorItem != nullptr) {
-			m_PlayerInfo.iDefend -= ArmorItem->Get_DefenseBoost();
+			m_PlayerInfo.iHp -= ArmorItem->Get_DefenseBoost();
 			cout << ArmorItem->Get_ItemName() << " 착용을 해제 합니다" << endl;
 			ArmorItem = nullptr;
 		}

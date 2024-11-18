@@ -5,7 +5,6 @@
 class Inventory {
 public:
 	void AddItem(Item* item);
-	//void useItem(const string& itemName);
 	void Render(string type);
 	Item* SelectEuip(string type);
 	size_t WeaponSize() { return invenWeapon.size(); }

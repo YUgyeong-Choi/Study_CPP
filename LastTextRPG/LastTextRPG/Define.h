@@ -36,7 +36,6 @@ typedef struct {
     JOB job;
     int iHp;
     int iAttack;
-    int iDefend;
     int iMoney;
     int Stage;
     SkillInfo skills[2];
