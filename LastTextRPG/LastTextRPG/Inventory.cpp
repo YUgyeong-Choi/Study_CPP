@@ -6,24 +6,24 @@
 void Inventory::AddItem(Item* item)
 {
 	if (dynamic_cast<Potion*>(item)) {
-		if (invenPotion.find(item->Get_ItemName()) == invenPotion.end()) {
-			invenPotion[item->Get_ItemName()] = item;
+		if (invenPotion.find(item->Get_ItemIndex()) == invenPotion.end()) {
+			invenPotion[item->Get_ItemIndex()] = item;
 		}
-		invenPotionCount[item->Get_ItemName()] += 1;
+		invenPotionCount[item->Get_ItemIndex()] += 1;
 	}
 
 	if (dynamic_cast<Weapon*>(item)) {
-		if (invenWeapon.find(item->Get_ItemName()) == invenWeapon.end()) {
-			invenWeapon[item->Get_ItemName()] = item;
+		if (invenWeapon.find(item->Get_ItemIndex()) == invenWeapon.end()) {
+			invenWeapon[item->Get_ItemIndex()] = item;
 		}
-		invenWeaponCount[item->Get_ItemName()] += 1;
+		invenWeaponCount[item->Get_ItemIndex()] += 1;
 	}
 
 	if (dynamic_cast<Armor*>(item)) {
-		if (invenArmor.find(item->Get_ItemName()) == invenArmor.end()) {
-			invenArmor[item->Get_ItemName()] = item;
+		if (invenArmor.find(item->Get_ItemIndex()) == invenArmor.end()) {
+			invenArmor[item->Get_ItemIndex()] = item;
 		}
-		invenArmorCount[item->Get_ItemName()] += 1;
+		invenArmorCount[item->Get_ItemIndex()] += 1;
 	}
 }
 
@@ -197,9 +197,9 @@ int Inventory::FightInventory()
 		if (1 <= _iInput && size >= _iInput) {
 			if (Potion* potion = dynamic_cast<Potion*>(potionItems[_iInput - 1])) {
 				potion->use();
-				invenPotionCount[potion->Get_ItemName()]--;
-				if (invenPotionCount[potion->Get_ItemName()] == 0) {
-					invenPotion.erase(potion->Get_ItemName());
+				invenPotionCount[potion->Get_ItemIndex()]--;
+				if (invenPotionCount[potion->Get_ItemIndex()] == 0) {
+					invenPotion.erase(potion->Get_ItemIndex());
 				}
 				return potion->Get_healAmount();
 			}
