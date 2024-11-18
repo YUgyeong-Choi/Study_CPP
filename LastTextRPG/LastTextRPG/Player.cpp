@@ -86,8 +86,8 @@ void Player::equip(Item* equipItem)
 		}
 	
 		if (WeaponItem) unequip("weapon");
-
-		WeaponItem = weapon;
+		Weapon* item = new Weapon(*dynamic_cast<Weapon*>(equipItem));
+		WeaponItem = item;
 		m_PlayerInfo.iAttack += weapon->Get_AttackBoost();
 		WeaponItem->use();
 	}
@@ -100,8 +100,8 @@ void Player::equip(Item* equipItem)
 
 
 		if (ArmorItem) unequip("armor");
-
-		ArmorItem = armor;
+		Armor* item = new Armor(*dynamic_cast<Armor*>(equipItem));
+		ArmorItem = item;
 		m_PlayerInfo.iHp += armor->Get_DefenseBoost();
 		iMaxHp += armor->Get_DefenseBoost();
 		ArmorItem->use();

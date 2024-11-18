@@ -1,4 +1,5 @@
 #include "Inventory.h"
+#include "Armor.h"
 
 Inventory::~Inventory()
 {
@@ -8,7 +9,7 @@ Inventory::~Inventory()
 	invenPotion.clear();
 
 	for (auto& pair : invenWeapon) {
-		SAFE_DELETE<Weapon* > (pair.second);
+		SAFE_DELETE<Weapon*>(pair.second);
 	}
 	invenWeapon.clear();
 
