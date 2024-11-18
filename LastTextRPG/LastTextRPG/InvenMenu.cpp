@@ -46,18 +46,18 @@ void InvenMenu::Update()
 			}
 			break;
 		case 3:
-			system("cls");
-			m_pPlayer->Get_InvenInfo()->Render("armor");
 			if (m_pPlayer->Get_InvenInfo()->ArmorSize() != 0) {
 				int _iInput2(0);
 				while (1) {
 					system("cls");
+					m_pPlayer->Get_InvenInfo()->Render("armor");
 					Item* item = nullptr;
 					cout << "1.ÀåÂø 2.ÀåÂø ÇØÁ¦ 3.³ª°¡±â" << endl;
 					cin >> _iInput2;
 					switch (_iInput2)
 					{
 					case 1:
+						m_pPlayer->Get_InvenInfo()->Render("armor");
 						item = m_pPlayer->Get_InvenInfo()->SelectEuip("armor");
 						if (item != nullptr) {
 							m_pPlayer->equip(item);

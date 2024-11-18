@@ -1,45 +1,49 @@
 #include "Inventory.h"
-#include "Potion.h"
-#include "Weapon.h"
-#include "Armor.h"
+
+Inventory::~Inventory()
+{
+	for (auto& pair : invenPotion) {
+		SAFE_DELETE<Potion*>(pair.second);
+	}
+	invenPotion.clear();
+
+	for (auto& pair : invenWeapon) {
+		SAFE_DELETE<Weapon* > (pair.second);
+	}
+	invenWeapon.clear();
+
+	for (auto& pair : invenArmor) {
+		SAFE_DELETE<Armor*>(pair.second);
+	}
+	invenArmor.clear();
+}
 
 void Inventory::AddItem(Item* item)
 {
 	if (dynamic_cast<Potion*>(item)) {
+		Potion* potion = new Potion(*dynamic_cast<Potion*>(item));
 		if (invenPotion.find(item->Get_ItemIndex()) == invenPotion.end()) {
-			invenPotion[item->Get_ItemIndex()] = item;
+			invenPotion[item->Get_ItemIndex()] = potion;
 		}
 		invenPotionCount[item->Get_ItemIndex()] += 1;
 	}
 
 	if (dynamic_cast<Weapon*>(item)) {
+		Weapon* weapon = new Weapon(*dynamic_cast<Weapon*>(item));
 		if (invenWeapon.find(item->Get_ItemIndex()) == invenWeapon.end()) {
-			invenWeapon[item->Get_ItemIndex()] = item;
+			invenWeapon[item->Get_ItemIndex()] = weapon;
 		}
 		invenWeaponCount[item->Get_ItemIndex()] += 1;
 	}
 
 	if (dynamic_cast<Armor*>(item)) {
+		Armor* armor = new Armor(*dynamic_cast<Armor*>(item));
 		if (invenArmor.find(item->Get_ItemIndex()) == invenArmor.end()) {
-			invenArmor[item->Get_ItemIndex()] = item;
+			invenArmor[item->Get_ItemIndex()] = armor;
 		}
 		invenArmorCount[item->Get_ItemIndex()] += 1;
 	}
 }
-
-//void Inventory::useItem(const string& itemName)
-//{
-//	if (inven.find(itemName) != inven.end() && invenCount[itemName] > 0) {
-//		inven[itemName]->use();
-//		invenCount[itemName]--;
-//		if (Potion* potion = dynamic_cast<Potion*>(inven[itemName])) {
-//			//player->usePotion(potion);
-//		}
-//		if (Equipment* equipItem = dynamic_cast<Equipment*>(inven[itemName])) {
-//			//player->equip(equipItem);
-//		}
-//	}
-//}
 
 void Inventory::Render(string type) {
 	system("cls");
@@ -48,7 +52,7 @@ void Inventory::Render(string type) {
 		cout << "============ 물약 ============" << endl;
 		for (const auto& pair : invenPotion) {
 			cout << size + 1 << "번째 아이템" << endl;
-			cout << "이름:" << pair.first << "\t보유 개수: " << invenPotionCount[pair.first] << endl;
+			cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenPotionCount[pair.first] << endl;
 			pair.second->use();
 			size++;
 
@@ -64,7 +68,7 @@ void Inventory::Render(string type) {
 		cout << "============ 무기 ============" << endl;
 		for (const auto& pair : invenWeapon) {
 			cout << size + 1 << "번째 아이템" << endl;
-			cout << "이름:" << pair.first << "\t보유 개수: " << invenWeaponCount[pair.first] << endl;
+			cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenWeaponCount[pair.first] << endl;
 			pair.second->use();
 			size++;
 
@@ -80,7 +84,7 @@ void Inventory::Render(string type) {
 		cout << "============ 방어구 ============" << endl;
 		for (const auto& pair : invenArmor) {
 			cout << size + 1 << "번째 아이템"  << endl;
-			cout << "이름:" << pair.first << "\t보유 개수: " << invenArmorCount[pair.first] << endl;
+			cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenArmorCount[pair.first] << endl;
 			pair.second->use();
 			size++;
 
@@ -102,7 +106,7 @@ Item* Inventory::SelectEuip(string type)
 			cout << "============ 무기 ============" << endl;
 			for (const auto& pair : invenWeapon) {
 				cout << size + 1 << "번째 아이템" << endl;
-				cout << "이름:" << pair.first << "\t보유 개수: " << invenWeaponCount[pair.first] << endl;
+				cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenWeaponCount[pair.first] << endl;
 				pair.second->use();
 				size++;
 				cout << "====================" << endl;
@@ -110,7 +114,7 @@ Item* Inventory::SelectEuip(string type)
 
 			size = 0;
 			for (const auto& pair : invenWeapon) {
-				cout << size + 1 << ". " << pair.first << endl;
+				cout << size + 1 << ". " << pair.second->Get_ItemName() << endl;
 				size++;
 			}
 
@@ -120,7 +124,7 @@ Item* Inventory::SelectEuip(string type)
 			cout << "============ 방어구 ============" << endl;
 			for (const auto& pair : invenArmor) {
 				cout << size + 1 << "번째 아이템" << endl;
-				cout << "이름:" << pair.first << "\t보유 개수: " << invenArmorCount[pair.first] << endl;
+				cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenArmorCount[pair.first] << endl;
 				pair.second->use();
 				size++;
 				cout << "====================" << endl;
@@ -128,7 +132,7 @@ Item* Inventory::SelectEuip(string type)
 
 			size = 0;
 			for (const auto& pair : invenArmor) {
-				cout << size + 1 << ". " << pair.first << endl;
+				cout << size + 1 << ". " << pair.second->Get_ItemName() << endl;
 				size++;
 			}
 			cout << size + 1 << ". 뒤로 가기" << endl;
@@ -166,13 +170,13 @@ Item* Inventory::SelectEuip(string type)
 
 int Inventory::FightInventory()
 {
-	vector<Item*> potionItems;
+	vector<Potion*> potionItems;
 	int size(0);
 	while (1) {
 		cout << "============ 물약 ============" << endl;
 		for (const auto& pair : invenPotion) {
 			cout << size + 1 << "번째 아이템" << endl;
-			cout << "이름:" << pair.first << "\t보유 개수: " << invenPotionCount[pair.first] << endl;
+			cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenPotionCount[pair.first] << endl;
 			potionItems.push_back(pair.second);
 			size++;
 			
@@ -195,7 +199,7 @@ int Inventory::FightInventory()
 		int _iInput(0);
 		cin >> _iInput;
 		if (1 <= _iInput && size >= _iInput) {
-			if (Potion* potion = dynamic_cast<Potion*>(potionItems[_iInput - 1])) {
+			if (Potion* potion = potionItems[_iInput - 1]) {
 				potion->use();
 				invenPotionCount[potion->Get_ItemIndex()]--;
 				if (invenPotionCount[potion->Get_ItemIndex()] == 0) {

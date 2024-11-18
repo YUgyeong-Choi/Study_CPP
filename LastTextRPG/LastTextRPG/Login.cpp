@@ -16,8 +16,8 @@ Login::~Login()
 
 void Login::Release()
 {
-	SAFE_DELETE(m_pPlayer);
-	SAFE_DELETE(m_pMenu);
+	SAFE_DELETE<Player*>(m_pPlayer);
+	SAFE_DELETE<MainMenu*>(m_pMenu);
 }
 
 void Login::Update()
@@ -25,8 +25,8 @@ void Login::Update()
 	while (1) {
 		system("cls");
 		bool bIsSelect = false;
-		if (m_pPlayer) SAFE_DELETE(m_pPlayer);
-		if (m_pMenu) SAFE_DELETE(m_pMenu);
+		if (m_pPlayer) SAFE_DELETE<Player*>(m_pPlayer);
+		if (m_pMenu) SAFE_DELETE<MainMenu*>(m_pMenu);
 
 		int _iInput(0);
 		cout << "========== 내 플레이어 들 ==========" << endl;

@@ -27,5 +27,5 @@ void MainGame::Update()
 
 void MainGame::Release()
 {
-	SAFE_DELETE(m_pLogin);
+	SAFE_DELETE<Login*>(m_pLogin);
 }

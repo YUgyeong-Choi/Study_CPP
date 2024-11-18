@@ -62,7 +62,9 @@ void Player::Init_Inven()
 
 void Player::Release()
 {
-	SAFE_DELETE(m_Inven);
+	SAFE_DELETE<Inventory*>(m_Inven);
+	SAFE_DELETE<Weapon*>(WeaponItem);
+	SAFE_DELETE<Armor*>(ArmorItem);
 }
 
 void Player::usePotion(int healAmount)

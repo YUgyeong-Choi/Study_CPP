@@ -95,7 +95,7 @@ void Field::Update() {
 
 void Field::Release()
 {
-    SAFE_DELETE(m_pDungeon);
+    SAFE_DELETE<Dungeon*>(m_pDungeon);
 }
 
 void Field::Set_PlayerInfo(Player* _pPlayer)

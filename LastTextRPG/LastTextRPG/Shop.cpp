@@ -6,6 +6,7 @@ Shop::Shop():m_pPlayer(nullptr)
 
 Shop::~Shop()
 {
+	Release();
 }
 
 void Shop::Update()

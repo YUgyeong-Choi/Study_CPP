@@ -23,25 +23,26 @@ void MainMenu::Update()
 		cout << "====================================" << endl; 
 		cout << "6. 뒤로 가기" << endl;
 		cin >> _iInput;
-		cin.ignore();
+
 		switch (_iInput)
 		{
 		case 1:
 			field = new Field;
 			field->Set_PlayerInfo(m_pPlayer);
 			field->Update();
-			SAFE_DELETE(field);
+			SAFE_DELETE<Field*>(field);
 			break;
 		case 2:
 			shopMenu = new ShopMenu;
 			shopMenu->Set_PlayerInfo(m_pPlayer);
 			shopMenu->Update();
-			SAFE_DELETE(shopMenu);
+			SAFE_DELETE<ShopMenu*>(shopMenu);
 			break;
 		case 3:
 			invenMenu = new InvenMenu;
 			invenMenu->Set_PlayerInfo(m_pPlayer);
 			invenMenu->Update();
+			SAFE_DELETE<InvenMenu*>(invenMenu);
 			break;
 		case 4:
 			break;
@@ -59,7 +60,7 @@ void MainMenu::Update()
 
 void MainMenu::Release()
 {
-	SAFE_DELETE(field);
-	SAFE_DELETE(shopMenu);
-	SAFE_DELETE(invenMenu);
+	SAFE_DELETE<Field*>(field);
+	SAFE_DELETE<ShopMenu*>(shopMenu);
+	SAFE_DELETE<InvenMenu*>(invenMenu);
 }

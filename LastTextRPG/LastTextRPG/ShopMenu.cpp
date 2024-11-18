@@ -43,7 +43,7 @@ void ShopMenu::Update()
 		if (m_shop) {
 			m_shop->Set_PlayerInfo(m_pPlayer);
 			m_shop->Update();
-			SAFE_DELETE(m_shop);
+			SAFE_DELETE<Shop*>(m_shop);
 		}
 		system("pause");
 	}
@@ -51,5 +51,5 @@ void ShopMenu::Update()
 
 void ShopMenu::Release()
 {
-	SAFE_DELETE(m_shop);
+	SAFE_DELETE<Shop*>(m_shop);
 }
