@@ -1,4 +1,5 @@
 #include "MainMenu.h"
+#include "Color.h"
 
 MainMenu::MainMenu():m_pPlayer(nullptr), field(nullptr), shopMenu(nullptr), invenMenu(nullptr)
 {
@@ -13,14 +14,14 @@ void MainMenu::Update()
 {
 	int _iInput(0);
 	while (1) {
-		system("cls");
-		cout << "============= Main Menu ============" << endl; 
+		system("cls"); setColor(YELLOW);
+		cout << "============= Main Menu ============" << endl; setColor(GRAY);
 		cout << "1. 사냥터" << endl;
 		cout << "2. 상점" << endl;
 		cout << "3. 인벤토리 & 장비" << endl;
 		cout << "4. 스탯 정보 출력" << endl; 
-		cout << "5. 도박" << endl; 
-		cout << "====================================" << endl; 
+		cout << "5. 도박" << endl; setColor(YELLOW);
+		cout << "====================================" << endl; setColor(GRAY);
 		cout << "6. 뒤로 가기" << endl;
 		cin >> _iInput;
 
@@ -45,6 +46,7 @@ void MainMenu::Update()
 			SAFE_DELETE<InvenMenu*>(invenMenu);
 			break;
 		case 4:
+			m_pPlayer->RenderDetail();
 			break;
 		case 5:
 			break;

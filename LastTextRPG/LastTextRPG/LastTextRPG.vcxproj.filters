@@ -85,6 +85,9 @@
     <Filter Include="04_Dungeon\3.HighDungeon">
       <UniqueIdentifier>{2cdfc7d1-0d89-44d3-8541-55fd0aebf9bb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="b0_Monster\1_LowBossMonster">
+      <UniqueIdentifier>{2757e155-7f06-41b1-82f2-85a9c34dff38}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -161,6 +164,12 @@
     </ClInclude>
     <ClInclude Include="Monster.h">
       <Filter>b0_Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="LowBossMonster.h">
+      <Filter>b0_Monster\1_LowBossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -241,6 +250,12 @@
     </ClCompile>
     <ClCompile Include="Monster.cpp">
       <Filter>b0_Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="LowBossMonster.cpp">
+      <Filter>b0_Monster\1_LowBossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

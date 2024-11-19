@@ -1,4 +1,5 @@
 #include "Shop.h"
+#include "Color.h"
 
 Shop::Shop():m_pPlayer(nullptr)
 {
@@ -17,8 +18,8 @@ void Shop::Update()
 			cout << i + 1 << ". " << shopItems[i]->Get_ItemName() << endl;
 			cout << "가격: " << shopItems[i]->Get_ItemPrice() << endl;
 			cout << "설명: ";
-			shopItems[i]->use();
-			cout << "=========================" << endl;
+			shopItems[i]->use(); setColor(SKYBLUE);
+			cout << "=========================" << endl; setColor(GRAY);
 		}
 
 		for (size_t i = 0; i < shopItems.size(); ++i) {

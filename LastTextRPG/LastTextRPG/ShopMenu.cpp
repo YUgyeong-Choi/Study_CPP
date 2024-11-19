@@ -2,6 +2,7 @@
 #include "PotionShop.h"
 #include "WeaponShop.h"
 #include "ArmorShop.h"
+#include "Color.h"
 
 ShopMenu::ShopMenu() :m_pPlayer(nullptr), m_shop(nullptr)
 {}
@@ -14,12 +15,12 @@ void ShopMenu::Update()
 {
 	int _iInput(0);
 	while (1) {
-		system("cls");
-		cout << "============ 상점 ===============" << endl;
+		system("cls"); setColor(YELLOW);
+		cout << "============ 상점 ===============" << endl; setColor(GRAY);
 		cout << "1. 물약 상점" << endl;
 		cout << "2. 무기 상점" << endl;
-		cout << "3. 방어구 상점" << endl;
-		cout << "=================================" << endl;
+		cout << "3. 방어구 상점" << endl; setColor(YELLOW);
+		cout << "=================================" << endl; setColor(GRAY);
 		cout << "4. 뒤로 가기" << endl;
 	
 		cin >> _iInput;

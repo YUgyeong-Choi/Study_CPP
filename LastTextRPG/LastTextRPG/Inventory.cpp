@@ -1,5 +1,6 @@
 #include "Inventory.h"
 #include "Armor.h"
+#include "Color.h"
 
 Inventory::~Inventory()
 {
@@ -49,15 +50,15 @@ void Inventory::AddItem(Item* item)
 void Inventory::Render(string type) {
 	system("cls");
 	if (type == "potion") {
-		int size(0);
-		cout << "============ 물약 ============" << endl;
+		int size(0); setColor(YELLOW);
+		cout << "============ 물약 ============" << endl; setColor(GRAY);
 		for (const auto& pair : invenPotion) {
 			cout << size + 1 << "번째 아이템" << endl;
 			cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenPotionCount[pair.first] << endl;
 			pair.second->use();
 			size++;
-
-			cout << "====================" << endl;
+			setColor(YELLOW);
+			cout << "====================" << endl; setColor(GRAY);
 		}
 		if (size == 0) {
 			cout << "비어 있습니다" << endl;
@@ -65,15 +66,15 @@ void Inventory::Render(string type) {
 	}
 
 	if (type == "weapon") {
-		int size(0);
-		cout << "============ 무기 ============" << endl;
+		int size(0); setColor(YELLOW);
+		cout << "============ 무기 ============" << endl; setColor(GRAY);
 		for (const auto& pair : invenWeapon) {
 			cout << size + 1 << "번째 아이템" << endl;
 			cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenWeaponCount[pair.first] << endl;
 			pair.second->use();
 			size++;
-
-			cout << "====================" << endl;
+			setColor(YELLOW);
+			cout << "====================" << endl; setColor(GRAY);
 		}
 		if (size == 0) {
 			cout << "비어 있습니다" << endl;
@@ -81,15 +82,15 @@ void Inventory::Render(string type) {
 	}
 
 	if (type == "armor") {
-		int size(0);
-		cout << "============ 방어구 ============" << endl;
+		int size(0); setColor(YELLOW);
+		cout << "============ 방어구 ============" << endl; setColor(GRAY);
 		for (const auto& pair : invenArmor) {
 			cout << size + 1 << "번째 아이템"  << endl;
 			cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenArmorCount[pair.first] << endl;
 			pair.second->use();
 			size++;
-
-			cout << "====================" << endl;
+			setColor(YELLOW);
+			cout << "====================" << endl; setColor(GRAY);
 		}
 		if (size == 0) {
 			cout << "비어 있습니다" << endl;
@@ -104,13 +105,14 @@ Item* Inventory::SelectEuip(string type)
 	while (1) {
 		system("cls");
 		if (type == "weapon") {
-			cout << "============ 무기 ============" << endl;
+			setColor(YELLOW);
+			cout << "============ 무기 ============" << endl; setColor(GRAY);
 			for (const auto& pair : invenWeapon) {
 				cout << size + 1 << "번째 아이템" << endl;
 				cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenWeaponCount[pair.first] << endl;
 				pair.second->use();
-				size++;
-				cout << "====================" << endl;
+				size++; setColor(YELLOW);
+				cout << "====================" << endl; setColor(GRAY);
 			}
 
 			size = 0;
@@ -122,13 +124,14 @@ Item* Inventory::SelectEuip(string type)
 		}
 
 		if (type == "armor") {
-			cout << "============ 방어구 ============" << endl;
+			setColor(YELLOW);
+			cout << "============ 방어구 ============" << endl; setColor(GRAY);
 			for (const auto& pair : invenArmor) {
 				cout << size + 1 << "번째 아이템" << endl;
 				cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenArmorCount[pair.first] << endl;
 				pair.second->use();
-				size++;
-				cout << "====================" << endl;
+				size++; setColor(YELLOW);
+				cout << "====================" << endl; setColor(GRAY);
 			}
 
 			size = 0;
@@ -174,7 +177,8 @@ int Inventory::FightInventory()
 	vector<Potion*> potionItems;
 	int size(0);
 	while (1) {
-		cout << "============ 물약 ============" << endl;
+		setColor(YELLOW);
+		cout << "============ 물약 ============" << endl; setColor(GRAY);
 		for (const auto& pair : invenPotion) {
 			cout << size + 1 << "번째 아이템" << endl;
 			cout << "이름:" << pair.second->Get_ItemName() << "\t보유 개수: " << invenPotionCount[pair.first] << endl;

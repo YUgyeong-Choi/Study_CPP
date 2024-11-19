@@ -2,6 +2,7 @@
 #include "LowDungeon.h"
 #include "MidDungeon.h"
 #include "HighDungeon.h"
+#include "Color.h"
 
 Field::Field():m_pPlayer(nullptr), m_pDungeon(nullptr)
 {
@@ -17,12 +18,12 @@ void Field::Update() {
 
     while (true) {
         system("cls");
-        cout << m_pPlayer->Get_PlayerInfo().Stage << "단계" << endl;
-        cout << "============= 던전 선택 ============" << endl; 
+        cout << m_pPlayer->Get_PlayerInfo().Stage << "단계" << endl; setColor(YELLOW);
+        cout << "============= 던전 선택 ============" << endl; setColor(GRAY);
         cout << "1. 어두운 숲의 동굴 (Level.1)" << endl;
         cout << "2. 버려진 성 (Level.2)" << endl;
-        cout << "3. 화산의 심장 (Level.3)" << endl;
-        cout << "============= 보스 선택 ============" << endl; 
+        cout << "3. 화산의 심장 (Level.3)" << endl; setColor(YELLOW);
+        cout << "============= 보스 선택 ============" << endl; setColor(GRAY);
 
         struct DungeonOption {
             int stageRequirement;
@@ -30,9 +31,9 @@ void Field::Update() {
         };
 
         DungeonOption bossOptions[] = {
-            {LOW, "Level 1, 던전 입장"},
-            {MIDDLE, "Level 2, 던전 입장"},
-            {HIGH, "Level 3, 던전 입장"}
+            {0, "Level 1, 던전 입장"},
+            {1, "Level 2, 던전 입장"},
+            {2, "Level 3, 던전 입장"}
         };
 
         for (int i = 0; i < 3; ++i) {
@@ -43,7 +44,8 @@ void Field::Update() {
                 cout << (i + 4) << ". " << bossOptions[i].entryText << " ( 미클리어 ) " << endl;
             }
         }
-        cout << "====================================" << endl; 
+        setColor(YELLOW);
+        cout << "====================================" << endl; setColor(GRAY);
         cout << "7. 뒤로 가기" << endl;
 
         cin >> _iInput;
@@ -70,15 +72,29 @@ void Field::Update() {
             m_pDungeon->Update();
 
         }
-        else if (_iInput >= 4 && _iInput <= 6) {
-            int index = _iInput - 4;
-            if (m_pPlayer->Get_PlayerInfo().Stage <= bossOptions[index].stageRequirement) {
-                cout << "던전을 클리어하고 와주세요" << endl;
-                cin.ignore();
-                cin.get();
-                continue;
+        else if (_iInput == 4) {
+            if (m_pPlayer->Get_PlayerInfo().Stage >= 1) {
+                //던전 입장
+            }   
+            else {
+                cout << "하급 던전을 클리어하고 와주세요" << endl;
             }
-
+        }
+        else if (_iInput == 5) {
+            if (m_pPlayer->Get_PlayerInfo().Stage >= 2) {
+                //던전 입장
+            }
+            else {
+                cout << "중급 던전을 클리어하고 와주세요" << endl;
+            }
+        }
+        else if (_iInput == 6) {
+            if (m_pPlayer->Get_PlayerInfo().Stage >= 3) {
+                //던전 입장
+            }
+            else {
+                cout << "고급 던전을 클리어하고 와주세요" << endl;
+            }
         }
         else if (_iInput == 7) {
             cout << "메뉴 화면으로 갑니다" << endl;

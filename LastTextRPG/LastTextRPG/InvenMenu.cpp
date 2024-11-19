@@ -1,14 +1,16 @@
 #include "InvenMenu.h"
+#include "Color.h"
+
 void InvenMenu::Update()
 {
 	int _iInput(0);
 	while (1) {
-		system("cls");
-		cout << "========== 인벤토리 ===========" << endl;
+		system("cls"); setColor(YELLOW);
+		cout << "========== 인벤토리 ===========" << endl; setColor(GRAY);
 		cout << "1. 물약 " << endl;
 		cout << "2. 무기" << endl;
-		cout << "3. 방어구" << endl;
-		cout << "===============================" << endl;
+		cout << "3. 방어구" << endl; setColor(YELLOW);
+		cout << "===============================" << endl; setColor(GRAY);
 		cout << "4. 뒤로 가기" << endl;
 		cin >> _iInput;
 		switch (_iInput)

@@ -4,6 +4,7 @@
 #include "Warrior.h"
 #include "Mage.h"
 #include "Fighter.h"
+#include "Color.h"
 
 
 Login::Login():m_pPlayer(nullptr), m_pMenu(nullptr)
@@ -28,12 +29,12 @@ void Login::Update()
 		if (m_pPlayer) SAFE_DELETE<Player*>(m_pPlayer);
 		if (m_pMenu) SAFE_DELETE<MainMenu*>(m_pMenu);
 
-		int _iInput(0);
-		cout << "========== 내 플레이어 들 ==========" << endl;
+		int _iInput(0); setColor(YELLOW);
+		cout << "========== 내 플레이어 들 ==========" << endl; setColor(GRAY);
 		cout << "1.              " << endl;
 		cout << "2.              " << endl;
-		cout << "3.              " << endl;
-		cout << "====================================" << endl;
+		cout << "3.              " << endl; setColor(YELLOW);
+		cout << "====================================" << endl; setColor(GRAY);
 		cout << "4. 새로 생성하기" << endl;
 		cout << "5. 게임 종료하기" << endl;
 
@@ -74,12 +75,12 @@ bool Login::Select_Job()
 {
 	while (1) {
 		system("cls");
-		int _iInput(0);
-		cout << "============= 직업 선택 ============" << endl; 
+		int _iInput(0); setColor(YELLOW);
+		cout << "============= 직업 선택 ============" << endl; setColor(GRAY);
 		cout << "1. 전사" << endl;
 		cout << "2. 마법사" << endl;
-		cout << "3. 격투가" << endl;
-		cout << "====================================" << endl; 
+		cout << "3. 격투가" << endl; setColor(YELLOW);
+		cout << "====================================" << endl; setColor(GRAY);
 		cout << "4. 뒤로 가기" << endl;
 
 		cin >> _iInput;

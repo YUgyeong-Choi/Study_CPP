@@ -1,5 +1,6 @@
 #include "Player.h"
 #include "pch.h"
+#include "Color.h"
 
 Player::Player()
 {
@@ -23,7 +24,8 @@ void Player::Set_Player_Name(const string& _StrName)
 
 void Player::Render()
 {
-	cout << "====================================" << endl;
+	setColor(RED);
+	cout << "====================================" << endl; setColor(GRAY);
 	cout << m_PlayerInfo.strName << endl;
 	cout << "Hp: " << m_PlayerInfo.iHp << endl;
 	cout << "Attack Damage: " << m_PlayerInfo.iAttack << endl;
@@ -31,7 +33,8 @@ void Player::Render()
 
 void Player::RenderDetail()
 {
-	cout << "===============================" << endl;
+	system("cls"); setColor(YELLOW);
+	cout << "===============================" << endl; setColor(GRAY);
 	cout << "이름: " << m_PlayerInfo.strName;
 	if (m_PlayerInfo.job == WARRIOR) cout << "\t직업: 전사" << endl;
 	else if (m_PlayerInfo.job == MAGE) cout << "\t직업: 마법사" << endl;
@@ -44,15 +47,16 @@ void Player::RenderDetail()
 	}
 
 	if (WeaponItem != nullptr) {
-		cout << "HP: " << m_PlayerInfo.iHp - WeaponItem->Get_AttackBoost() << "\Weapon: " << WeaponItem->Get_AttackBoost() << endl;
+		cout << "HP: " << m_PlayerInfo.iHp - WeaponItem->Get_AttackBoost() << "\tWeapon: " << WeaponItem->Get_AttackBoost() << endl;
 	}
 	else {
 		cout << "Attack: " << m_PlayerInfo.iAttack  << "\tWeapon: 0" << endl;
 	}
 
-
-	
-	
+	cout << "Skill1: " << m_PlayerInfo.skills[0].skillName << "\tCool: " << m_PlayerInfo.skills[0].cool << endl;
+	cout << "설명: " << m_PlayerInfo.skills[0].skillInfo << endl;
+	cout << "Skill1: " << m_PlayerInfo.skills[1].skillName << "\tCool: " << m_PlayerInfo.skills[1].cool << endl;
+	cout << "설명: " << m_PlayerInfo.skills[1].skillInfo << endl;
 }
 
 void Player::Init_Inven()

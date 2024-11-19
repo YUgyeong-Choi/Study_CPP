@@ -1,4 +1,5 @@
 #include "Dungeon.h"
+#include "Color.h"
 
 Dungeon::Dungeon():m_pPlayer(nullptr), m_pMonster(nullptr) , coolTime(0){
     for (int i = 0; i < 5; ++i) {
@@ -143,14 +144,15 @@ Monster* Dungeon::Set_Monster()
 
 
 void Dungeon::Render_Map() {
-    cout << "============= 던전 =============" << endl;
+    setColor(YELLOW);
+    cout << "============= 던전 =============" << endl; setColor(GRAY);
     for (int i = 0; i < 5; ++i) {
         for (int j = 0; j < 5; ++j) {
             cout << map[i][j][0] << " ";
         }
         cout << endl;
-    }
-    cout << "=================================" << endl; 
+    }setColor(YELLOW);
+    cout << "=================================" << endl; setColor(GRAY);
 }
 
 bool Dungeon::Check_Clear() {
@@ -173,8 +175,8 @@ bool Dungeon::Fight() {
     while (1) {
         system("cls");
         m_pMonster->Render();
-        m_pPlayer->Render();
-        cout << "====================================" << endl; 
+        m_pPlayer->Render(); setColor(YELLOW);
+        cout << "====================================" << endl; setColor(GRAY);
         cout << "1.기본 공격" << '\t' << " 2." << m_pPlayer->Get_PlayerInfo().skills[0].skillName << '\t' << " 3." << m_pPlayer->Get_PlayerInfo().skills[1].skillName << endl;
         cout << "4.인벤토리" << '\t' << "5.도망" << endl;
         cin >> _iInput;
