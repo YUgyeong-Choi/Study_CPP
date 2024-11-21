@@ -57,6 +57,9 @@
     <ClCompile Include="MainGame2.cpp">
       <Filter>MainGame2</Filter>
     </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">

@@ -19,8 +19,7 @@ void MainMenu::Update()
 		cout << "1. 사냥터" << endl;
 		cout << "2. 상점" << endl;
 		cout << "3. 인벤토리 & 장비" << endl;
-		cout << "4. 스탯 정보 출력" << endl; 
-		cout << "5. 도박" << endl; setColor(YELLOW);
+		cout << "4. 스탯 정보 출력" << endl;  setColor(YELLOW);
 		cout << "====================================" << endl; setColor(GRAY);
 		cout << "6. 뒤로 가기" << endl;
 		cin >> _iInput;
